@@ -1,0 +1,5266 @@
+[
+  {
+    "id": 0,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 1,
+    "name": "Leather",
+    "model_path": "pl001_0000",
+    "name_ja": "レザー",
+    "name_zh": "皮製"
+  },
+  {
+    "id": 2,
+    "name": "Hunter's",
+    "model_path": "pl002_0000",
+    "name_ja": "ハンター",
+    "name_zh": "獵人"
+  },
+  {
+    "id": 3,
+    "name": "Anja",
+    "model_path": "pl020_0000",
+    "name_ja": "ジャナフ",
+    "name_zh": "蠻顎龍"
+  },
+  {
+    "id": 4,
+    "name": "Jagras",
+    "model_path": "pl008_0000",
+    "name_ja": "ジャグラス",
+    "name_zh": "凶豺龍"
+  },
+  {
+    "id": 5,
+    "name": "Bone",
+    "model_path": "pl003_0000",
+    "name_ja": "ボーン",
+    "name_zh": "骨製"
+  },
+  {
+    "id": 6,
+    "name": "Alloy",
+    "model_path": "pl004_0000",
+    "name_ja": "アロイ",
+    "name_zh": "合金"
+  },
+  {
+    "id": 7,
+    "name": "Kestodon",
+    "model_path": "pl005_0000",
+    "name_ja": "ケスト",
+    "name_zh": "冠突龍"
+  },
+  {
+    "id": 8,
+    "name": "Gajau",
+    "model_path": "pl006_0000",
+    "name_ja": "ガライー",
+    "name_zh": "咬魚"
+  },
+  {
+    "id": 9,
+    "name": "Vespoid",
+    "model_path": "pl007_0000",
+    "name_ja": "ランゴ",
+    "name_zh": "巨蜂"
+  },
+  {
+    "id": 10,
+    "name": "Kulu",
+    "model_path": "pl009_0000",
+    "name_ja": "クルル",
+    "name_zh": "搔鳥"
+  },
+  {
+    "id": 11,
+    "name": "Pukei",
+    "model_path": "pl010_0000",
+    "name_ja": "プケプケ",
+    "name_zh": "毒妖鳥"
+  },
+  {
+    "id": 12,
+    "name": "Jyura",
+    "model_path": "pl011_0000",
+    "name_ja": "ジュラ",
+    "name_zh": "泥魚龍"
+  },
+  {
+    "id": 13,
+    "name": "Barroth",
+    "model_path": "pl012_0000",
+    "name_ja": "ボロス",
+    "name_zh": "土砂龍"
+  },
+  {
+    "id": 14,
+    "name": "Kadachi",
+    "model_path": "pl013_0000",
+    "name_ja": "カガチ",
+    "name_zh": "飛雷龍"
+  },
+  {
+    "id": 15,
+    "name": "Chainmail",
+    "model_path": "pl014_0000",
+    "name_ja": "チェーン",
+    "name_zh": "鎖甲"
+  },
+  {
+    "id": 16,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 17,
+    "name": "Hornetaur",
+    "model_path": "pl017_0000",
+    "name_ja": "タロス",
+    "name_zh": "巨甲蟲"
+  },
+  {
+    "id": 18,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 19,
+    "name": "King Beetle",
+    "model_path": "pl019_0000 (Male Only)",
+    "name_ja": "オウビート",
+    "name_zh": "獨角仙"
+  },
+  {
+    "id": 20,
+    "name": "Rathian",
+    "model_path": "pl021_0000",
+    "name_ja": "レイア",
+    "name_zh": "雌火龍"
+  },
+  {
+    "id": 21,
+    "name": "Girros",
+    "model_path": "pl022_0000",
+    "name_ja": "ギルオス",
+    "name_zh": "凶顎龍"
+  },
+  {
+    "id": 22,
+    "name": "Tzitzi",
+    "model_path": "pl023_0000",
+    "name_ja": "ツィツィ",
+    "name_zh": "眩鳥"
+  },
+  {
+    "id": 23,
+    "name": "Lumu",
+    "model_path": "pl024_0000",
+    "name_ja": "ウルムー",
+    "name_zh": "浮空龍"
+  },
+  {
+    "id": 24,
+    "name": "High Metal",
+    "model_path": "pl025_0000",
+    "name_ja": "ハイメタ",
+    "name_zh": "礦石"
+  },
+  {
+    "id": 25,
+    "name": "Death Stench",
+    "model_path": "pl026_0000",
+    "name_ja": "デスギア",
+    "name_zh": "死神"
+  },
+  {
+    "id": 26,
+    "name": "Legiana",
+    "model_path": "pl027_0000",
+    "name_ja": "ギエナ",
+    "name_zh": "風漂龍"
+  },
+  {
+    "id": 27,
+    "name": "Baan",
+    "model_path": "pl028_0000",
+    "name_ja": "バルキン",
+    "name_zh": "骨鎚龍"
+  },
+  {
+    "id": 28,
+    "name": "Odogaron",
+    "model_path": "pl029_0000",
+    "name_ja": "ガロン",
+    "name_zh": "慘爪龍"
+  },
+  {
+    "id": 29,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 30,
+    "name": "Ingot",
+    "model_path": "pl031_0000",
+    "name_ja": "インゴット",
+    "name_zh": "鑄鐵"
+  },
+  {
+    "id": 31,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 32,
+    "name": "Rathalos",
+    "model_path": "pl033_0000",
+    "name_ja": "レウス",
+    "name_zh": "火龍"
+  },
+  {
+    "id": 33,
+    "name": "Diablos",
+    "model_path": "pl034_0000",
+    "name_ja": "ディアブロ",
+    "name_zh": "角龍"
+  },
+  {
+    "id": 34,
+    "name": "Kirin",
+    "model_path": "pl035_0000",
+    "name_ja": "キリン",
+    "name_zh": "麒麟"
+  },
+  {
+    "id": 35,
+    "name": "Brigade",
+    "model_path": "pl036_0000",
+    "name_ja": "ブリゲイド",
+    "name_zh": "旅團"
+  },
+  {
+    "id": 36,
+    "name": "Unavailable",
+    "model_path": "pl037_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 37,
+    "name": "Leather",
+    "model_path": "pl001_0000",
+    "name_ja": "レザー",
+    "name_zh": "皮製"
+  },
+  {
+    "id": 38,
+    "name": "Leather",
+    "model_path": "pl001_0000",
+    "name_ja": "レザー",
+    "name_zh": "皮製"
+  },
+  {
+    "id": 39,
+    "name": "Chainmail",
+    "model_path": "pl014_0000",
+    "name_ja": "チェーン",
+    "name_zh": "鎖甲"
+  },
+  {
+    "id": 40,
+    "name": "Chainmail",
+    "model_path": "pl014_0000",
+    "name_ja": "チェーン",
+    "name_zh": "鎖甲"
+  },
+  {
+    "id": 41,
+    "name": "Hunter's",
+    "model_path": "pl002_0000",
+    "name_ja": "ハンター",
+    "name_zh": "獵人"
+  },
+  {
+    "id": 42,
+    "name": "Hunter's",
+    "model_path": "pl002_0010",
+    "name_ja": "ハンター",
+    "name_zh": "獵人"
+  },
+  {
+    "id": 43,
+    "name": "Bone",
+    "model_path": "pl003_0000",
+    "name_ja": "ボーン",
+    "name_zh": "骨製"
+  },
+  {
+    "id": 44,
+    "name": "Bone",
+    "model_path": "pl003_0000",
+    "name_ja": "ボーン",
+    "name_zh": "骨製"
+  },
+  {
+    "id": 45,
+    "name": "Alloy",
+    "model_path": "pl004_0000",
+    "name_ja": "アロイ",
+    "name_zh": "合金"
+  },
+  {
+    "id": 46,
+    "name": "Alloy",
+    "model_path": "pl004_0000",
+    "name_ja": "アロイ",
+    "name_zh": "合金"
+  },
+  {
+    "id": 47,
+    "name": "Gajau",
+    "model_path": "pl006_0000",
+    "name_ja": "ガライー",
+    "name_zh": "咬魚"
+  },
+  {
+    "id": 48,
+    "name": "Gajau",
+    "model_path": "pl006_0000",
+    "name_ja": "ガライー",
+    "name_zh": "咬魚"
+  },
+  {
+    "id": 49,
+    "name": "Kestodon",
+    "model_path": "pl005_0000",
+    "name_ja": "ケスト",
+    "name_zh": "冠突龍"
+  },
+  {
+    "id": 50,
+    "name": "Kestodon",
+    "model_path": "pl005_0000",
+    "name_ja": "ケスト",
+    "name_zh": "冠突龍"
+  },
+  {
+    "id": 51,
+    "name": "Vespoid",
+    "model_path": "pl007_0000",
+    "name_ja": "ランゴ",
+    "name_zh": "巨蜂"
+  },
+  {
+    "id": 52,
+    "name": "Vespoid",
+    "model_path": "pl007_0000",
+    "name_ja": "ランゴ",
+    "name_zh": "巨蜂"
+  },
+  {
+    "id": 53,
+    "name": "Gastodon",
+    "model_path": "pl015_0000",
+    "name_ja": "ガストα",
+    "name_zh": "突擊龍α"
+  },
+  {
+    "id": 54,
+    "name": "Gastodon",
+    "model_path": "pl015_0000",
+    "name_ja": "ガストα",
+    "name_zh": "突擊龍α"
+  },
+  {
+    "id": 55,
+    "name": "Barnos",
+    "model_path": "pl016_0000",
+    "name_ja": "バルノスα",
+    "name_zh": "酸翼龍α"
+  },
+  {
+    "id": 56,
+    "name": "Barnos",
+    "model_path": "pl016_0000",
+    "name_ja": "バルノスα",
+    "name_zh": "酸翼龍α"
+  },
+  {
+    "id": 57,
+    "name": "Hornetaur",
+    "model_path": "pl017_0000",
+    "name_ja": "タロス",
+    "name_zh": "巨甲蟲"
+  },
+  {
+    "id": 58,
+    "name": "Hornetaur",
+    "model_path": "pl017_0000",
+    "name_ja": "タロス",
+    "name_zh": "巨甲蟲"
+  },
+  {
+    "id": 59,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 60,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 61,
+    "name": "Jagras",
+    "model_path": "pl008_0000",
+    "name_ja": "ジャグラス",
+    "name_zh": "凶豺龍"
+  },
+  {
+    "id": 62,
+    "name": "Jagras",
+    "model_path": "pl008_0000",
+    "name_ja": "ジャグラス",
+    "name_zh": "凶豺龍"
+  },
+  {
+    "id": 63,
+    "name": "Kulu",
+    "model_path": "pl009_0000",
+    "name_ja": "クルル",
+    "name_zh": "搔鳥"
+  },
+  {
+    "id": 64,
+    "name": "Kulu",
+    "model_path": "pl009_0000",
+    "name_ja": "クルル",
+    "name_zh": "搔鳥"
+  },
+  {
+    "id": 65,
+    "name": "Pukei",
+    "model_path": "pl010_0000",
+    "name_ja": "プケプケ",
+    "name_zh": "毒妖鳥"
+  },
+  {
+    "id": 66,
+    "name": "Pukei",
+    "model_path": "pl010_0010",
+    "name_ja": "プケプケ",
+    "name_zh": "毒妖鳥"
+  },
+  {
+    "id": 67,
+    "name": "Jyura",
+    "model_path": "pl011_0000",
+    "name_ja": "ジュラ",
+    "name_zh": "泥魚龍"
+  },
+  {
+    "id": 68,
+    "name": "Jyura",
+    "model_path": "pl011_0000",
+    "name_ja": "ジュラ",
+    "name_zh": "泥魚龍"
+  },
+  {
+    "id": 69,
+    "name": "Barroth",
+    "model_path": "pl012_0000",
+    "name_ja": "ボロス",
+    "name_zh": "土砂龍"
+  },
+  {
+    "id": 70,
+    "name": "Barroth",
+    "model_path": "pl012_0000",
+    "name_ja": "ボロス",
+    "name_zh": "土砂龍"
+  },
+  {
+    "id": 71,
+    "name": "Kadachi",
+    "model_path": "pl013_0000",
+    "name_ja": "カガチ",
+    "name_zh": "飛雷龍"
+  },
+  {
+    "id": 72,
+    "name": "Kadachi",
+    "model_path": "pl013_0000",
+    "name_ja": "カガチ",
+    "name_zh": "飛雷龍"
+  },
+  {
+    "id": 73,
+    "name": "Rathian",
+    "model_path": "pl021_0000",
+    "name_ja": "レイア",
+    "name_zh": "雌火龍"
+  },
+  {
+    "id": 74,
+    "name": "Rathian",
+    "model_path": "pl021_0010",
+    "name_ja": "レイア",
+    "name_zh": "雌火龍"
+  },
+  {
+    "id": 75,
+    "name": "Girros",
+    "model_path": "pl022_0000",
+    "name_ja": "ギルオス",
+    "name_zh": "凶顎龍"
+  },
+  {
+    "id": 76,
+    "name": "Girros",
+    "model_path": "pl022_0000",
+    "name_ja": "ギルオス",
+    "name_zh": "凶顎龍"
+  },
+  {
+    "id": 77,
+    "name": "Tzitzi",
+    "model_path": "pl023_0000",
+    "name_ja": "ツィツィ",
+    "name_zh": "眩鳥"
+  },
+  {
+    "id": 78,
+    "name": "Tzitzi",
+    "model_path": "pl023_0000",
+    "name_ja": "ツィツィ",
+    "name_zh": "眩鳥"
+  },
+  {
+    "id": 79,
+    "name": "Lumu",
+    "model_path": "pl024_0000",
+    "name_ja": "ウルムー",
+    "name_zh": "浮空龍"
+  },
+  {
+    "id": 80,
+    "name": "Lumu",
+    "model_path": "pl024_0000",
+    "name_ja": "ウルムー",
+    "name_zh": "浮空龍"
+  },
+  {
+    "id": 81,
+    "name": "Odogaron",
+    "model_path": "pl029_0000",
+    "name_ja": "ガロン",
+    "name_zh": "慘爪龍"
+  },
+  {
+    "id": 82,
+    "name": "Odogaron",
+    "model_path": "pl029_0010",
+    "name_ja": "ガロン",
+    "name_zh": "慘爪龍"
+  },
+  {
+    "id": 83,
+    "name": "Dodogama",
+    "model_path": "pl039_0000",
+    "name_ja": "ガマルα",
+    "name_zh": "岩賊龍α"
+  },
+  {
+    "id": 84,
+    "name": "Dodogama",
+    "model_path": "pl039_0000",
+    "name_ja": "ガマルα",
+    "name_zh": "岩賊龍α"
+  },
+  {
+    "id": 85,
+    "name": "Lavasioth",
+    "model_path": "pl040_0000",
+    "name_ja": "ラヴァα",
+    "name_zh": "熔岩龍α"
+  },
+  {
+    "id": 86,
+    "name": "Lavasioth",
+    "model_path": "pl040_0010",
+    "name_ja": "ラヴァα",
+    "name_zh": "熔岩龍α"
+  },
+  {
+    "id": 87,
+    "name": "Rath Heart",
+    "model_path": "pl021_0100",
+    "name_ja": "リオハートα",
+    "name_zh": "火龍心α"
+  },
+  {
+    "id": 88,
+    "name": "Rath Heart",
+    "model_path": "pl021_0110",
+    "name_ja": "リオハートα",
+    "name_zh": "火龍心α"
+  },
+  {
+    "id": 89,
+    "name": "High Metal",
+    "model_path": "pl025_0000",
+    "name_ja": "ハイメタ",
+    "name_zh": "礦石"
+  },
+  {
+    "id": 90,
+    "name": "High Metal",
+    "model_path": "pl025_0000",
+    "name_ja": "ハイメタ",
+    "name_zh": "礦石"
+  },
+  {
+    "id": 91,
+    "name": "Ingot",
+    "model_path": "pl031_0000",
+    "name_ja": "インゴット",
+    "name_zh": "鑄鐵"
+  },
+  {
+    "id": 92,
+    "name": "Ingot",
+    "model_path": "pl031_0000",
+    "name_ja": "インゴット",
+    "name_zh": "鑄鐵"
+  },
+  {
+    "id": 93,
+    "name": "Anja",
+    "model_path": "pl020_0000",
+    "name_ja": "ジャナフ",
+    "name_zh": "蠻顎龍"
+  },
+  {
+    "id": 94,
+    "name": "Anja",
+    "model_path": "pl020_0010",
+    "name_ja": "ジャナフ",
+    "name_zh": "蠻顎龍"
+  },
+  {
+    "id": 95,
+    "name": "Legiana",
+    "model_path": "pl027_0000",
+    "name_ja": "ギエナ",
+    "name_zh": "風漂龍"
+  },
+  {
+    "id": 96,
+    "name": "Legiana",
+    "model_path": "pl027_0010",
+    "name_ja": "ギエナ",
+    "name_zh": "風漂龍"
+  },
+  {
+    "id": 97,
+    "name": "Baan",
+    "model_path": "pl028_0000",
+    "name_ja": "バルキン",
+    "name_zh": "骨鎚龍"
+  },
+  {
+    "id": 98,
+    "name": "Baan",
+    "model_path": "pl028_0010",
+    "name_ja": "バルキン",
+    "name_zh": "骨鎚龍"
+  },
+  {
+    "id": 99,
+    "name": "Vaal Hazak",
+    "model_path": "pl032_0000",
+    "name_ja": "ウルズα",
+    "name_zh": "烏爾德α"
+  },
+  {
+    "id": 100,
+    "name": "Vaal Hazak",
+    "model_path": "pl032_0010",
+    "name_ja": "ウルズα",
+    "name_zh": "烏爾德α"
+  },
+  {
+    "id": 101,
+    "name": "Rathalos",
+    "model_path": "pl033_0000",
+    "name_ja": "レウス",
+    "name_zh": "火龍"
+  },
+  {
+    "id": 102,
+    "name": "Rathalos",
+    "model_path": "pl033_0010",
+    "name_ja": "レウス",
+    "name_zh": "火龍"
+  },
+  {
+    "id": 103,
+    "name": "Diablos",
+    "model_path": "pl034_0000",
+    "name_ja": "ディアブロ",
+    "name_zh": "角龍"
+  },
+  {
+    "id": 104,
+    "name": "Diablos",
+    "model_path": "pl034_0010",
+    "name_ja": "ディアブロ",
+    "name_zh": "角龍"
+  },
+  {
+    "id": 105,
+    "name": "Kirin",
+    "model_path": "pl035_0000",
+    "name_ja": "キリン",
+    "name_zh": "麒麟"
+  },
+  {
+    "id": 106,
+    "name": "Kirin",
+    "model_path": "pl035_0010",
+    "name_ja": "キリン",
+    "name_zh": "麒麟"
+  },
+  {
+    "id": 107,
+    "name": "Nergigante",
+    "model_path": "pl030_0000",
+    "name_ja": "オーグα",
+    "name_zh": "戰紋α"
+  },
+  {
+    "id": 108,
+    "name": "Nergigante",
+    "model_path": "pl030_0010",
+    "name_ja": "オーグα",
+    "name_zh": "戰紋α"
+  },
+  {
+    "id": 109,
+    "name": "Uragaan",
+    "model_path": "pl041_0000",
+    "name_ja": "ガンキンα",
+    "name_zh": "爆鎚龍α"
+  },
+  {
+    "id": 110,
+    "name": "Uragaan",
+    "model_path": "pl041_0010",
+    "name_ja": "ガンキンα",
+    "name_zh": "爆鎚龍α"
+  },
+  {
+    "id": 111,
+    "name": "Rath Soul",
+    "model_path": "pl033_0100",
+    "name_ja": "リオソウルα",
+    "name_zh": "火龍魂α"
+  },
+  {
+    "id": 112,
+    "name": "Rath Soul",
+    "model_path": "pl033_0110",
+    "name_ja": "リオソウルα",
+    "name_zh": "火龍魂α"
+  },
+  {
+    "id": 113,
+    "name": "Diablos Nero",
+    "model_path": "pl034_0100",
+    "name_ja": "ディアネロα",
+    "name_zh": "暴君角龍α"
+  },
+  {
+    "id": 114,
+    "name": "Diablos Nero",
+    "model_path": "pl034_0110",
+    "name_ja": "ディアネロα",
+    "name_zh": "暴君角龍α"
+  },
+  {
+    "id": 115,
+    "name": "Bazel",
+    "model_path": "pl042_0000",
+    "name_ja": "バゼルα",
+    "name_zh": "爆鱗龍α"
+  },
+  {
+    "id": 116,
+    "name": "Bazel",
+    "model_path": "pl042_0010",
+    "name_ja": "バゼルα",
+    "name_zh": "爆鱗龍α"
+  },
+  {
+    "id": 117,
+    "name": "King Beetle",
+    "model_path": "pl019_0000 (Male Only)",
+    "name_ja": "オウビート",
+    "name_zh": "獨角仙"
+  },
+  {
+    "id": 118,
+    "name": "King Beetle",
+    "model_path": "pl019_0000 (Male Only)",
+    "name_ja": "オウビート",
+    "name_zh": "獨角仙"
+  },
+  {
+    "id": 119,
+    "name": "Brigade",
+    "model_path": "pl036_0000",
+    "name_ja": "ブリゲイド",
+    "name_zh": "旅團"
+  },
+  {
+    "id": 120,
+    "name": "Brigade",
+    "model_path": "pl036_0000",
+    "name_ja": "ブリゲイド",
+    "name_zh": "旅團"
+  },
+  {
+    "id": 121,
+    "name": "Damascus",
+    "model_path": "pl043_0000",
+    "name_ja": "ダマスクα",
+    "name_zh": "大馬士革α"
+  },
+  {
+    "id": 122,
+    "name": "Damascus",
+    "model_path": "pl043_0010",
+    "name_ja": "ダマスクα",
+    "name_zh": "大馬士革α"
+  },
+  {
+    "id": 123,
+    "name": "Dober",
+    "model_path": "pl044_0000",
+    "name_ja": "ドーベルα",
+    "name_zh": "杜賓α"
+  },
+  {
+    "id": 124,
+    "name": "Dober",
+    "model_path": "pl044_0000",
+    "name_ja": "ドーベルα",
+    "name_zh": "杜賓α"
+  },
+  {
+    "id": 125,
+    "name": "Xeno'jiiva",
+    "model_path": "pl045_0000",
+    "name_ja": "ゼノラージα",
+    "name_zh": "冥燈幽火α"
+  },
+  {
+    "id": 126,
+    "name": "Xeno'jiiva",
+    "model_path": "pl045_0010",
+    "name_ja": "ゼノラージα",
+    "name_zh": "冥燈幽火α"
+  },
+  {
+    "id": 127,
+    "name": "Teostra",
+    "model_path": "pl046_0000",
+    "name_ja": "カイザーα",
+    "name_zh": "帝王α"
+  },
+  {
+    "id": 128,
+    "name": "Teostra",
+    "model_path": "pl046_0010",
+    "name_ja": "カイザーα",
+    "name_zh": "帝王α"
+  },
+  {
+    "id": 129,
+    "name": "Kushala",
+    "model_path": "pl047_0000",
+    "name_ja": "クシャナα",
+    "name_zh": "鋼龍α"
+  },
+  {
+    "id": 130,
+    "name": "Kushala",
+    "model_path": "pl047_0010",
+    "name_ja": "クシャナα",
+    "name_zh": "鋼龍α"
+  },
+  {
+    "id": 131,
+    "name": "Skull",
+    "model_path": "pl054_0000",
+    "name_ja": "スカルα",
+    "name_zh": "骷髏α"
+  },
+  {
+    "id": 132,
+    "name": "Skull",
+    "model_path": "pl001_0000",
+    "name_ja": "スカルα",
+    "name_zh": "骷髏α"
+  },
+  {
+    "id": 133,
+    "name": "Death Stench",
+    "model_path": "pl026_0000",
+    "name_ja": "デスギア",
+    "name_zh": "死神"
+  },
+  {
+    "id": 134,
+    "name": "Death Stench",
+    "model_path": "pl026_0000",
+    "name_ja": "デスギア",
+    "name_zh": "死神"
+  },
+  {
+    "id": 135,
+    "name": "Guild Cross",
+    "model_path": "pl048_0000",
+    "name_ja": "ギルドクロスα",
+    "name_zh": "公會十字α"
+  },
+  {
+    "id": 136,
+    "name": "Guild Cross",
+    "model_path": "pl048_0000",
+    "name_ja": "ギルドクロスα",
+    "name_zh": "公會十字α"
+  },
+  {
+    "id": 137,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 138,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 139,
+    "name": "Zorah",
+    "model_path": "pl038_0000",
+    "name_ja": "ゾラマグナα",
+    "name_zh": "鑄島熔岩α"
+  },
+  {
+    "id": 140,
+    "name": "Zorah",
+    "model_path": "pl038_0010",
+    "name_ja": "ゾラマグナα",
+    "name_zh": "鑄島熔岩α"
+  },
+  {
+    "id": 141,
+    "name": "Commission",
+    "model_path": "pl053_0000",
+    "name_ja": "シーカーα",
+    "name_zh": "追蹤者α"
+  },
+  {
+    "id": 142,
+    "name": "Commission",
+    "model_path": "pl053_0000",
+    "name_ja": "シーカーα",
+    "name_zh": "追蹤者α"
+  },
+  {
+    "id": 143,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 144,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 145,
+    "name": "Brigade",
+    "model_path": "pl036_0000",
+    "name_ja": "ブリゲイド",
+    "name_zh": "旅團"
+  },
+  {
+    "id": 146,
+    "name": "Guild Cross",
+    "model_path": "pl048_0000",
+    "name_ja": "ギルドクロスα",
+    "name_zh": "公會十字α"
+  },
+  {
+    "id": 147,
+    "name": "Blossom",
+    "model_path": "pl074_0000",
+    "name_ja": "ブロッサム",
+    "name_zh": "巴魯特"
+  },
+  {
+    "id": 148,
+    "name": "Diver",
+    "model_path": "pl075_0000",
+    "name_ja": "ダイバー",
+    "name_zh": "潛水夫"
+  },
+  {
+    "id": 149,
+    "name": "Harvest",
+    "model_path": "pl076_0000",
+    "name_ja": "ハーベスト",
+    "name_zh": "收穫"
+  },
+  {
+    "id": 150,
+    "name": "Orion",
+    "model_path": "pl077_0000",
+    "name_ja": "オリオン",
+    "name_zh": "獵戶星"
+  },
+  {
+    "id": 151,
+    "name": "Faux Felyne",
+    "model_path": "pl055_0000",
+    "name_ja": "アイルーフェイクα",
+    "name_zh": "艾路頭套α"
+  },
+  {
+    "id": 152,
+    "name": "Mosswine Mask",
+    "model_path": "pl056_0000",
+    "name_ja": "モスフェイクα",
+    "name_zh": "菌豬頭套α"
+  },
+  {
+    "id": 153,
+    "name": "Gala Suit",
+    "model_path": "pl078_0000",
+    "name_ja": "フルドレス",
+    "name_zh": "盛裝"
+  },
+  {
+    "id": 154,
+    "name": "HARDUMMY",
+    "model_path": "pl068_0000",
+    "name_ja": "ダミー",
+    "name_zh": "占位裝備"
+  },
+  {
+    "id": 155,
+    "name": "Ryu",
+    "model_path": "pl069_0000",
+    "name_ja": "リュウ",
+    "name_zh": "隆"
+  },
+  {
+    "id": 156,
+    "name": "Sakura",
+    "model_path": "pl070_0000",
+    "name_ja": "サクラ",
+    "name_zh": "櫻"
+  },
+  {
+    "id": 157,
+    "name": "Bushi \"Sabi\"",
+    "model_path": "pl001_0000",
+    "name_ja": "烈火【寂】",
+    "name_zh": "烈火【寂】"
+  },
+  {
+    "id": 158,
+    "name": "Bushi \"Sabi\"",
+    "model_path": "pl001_0000",
+    "name_ja": "烈火【寂】",
+    "name_zh": "烈火【寂】"
+  },
+  {
+    "id": 159,
+    "name": "Bayek",
+    "model_path": "pl120_0000",
+    "name_ja": "バエク",
+    "name_zh": "巴耶克"
+  },
+  {
+    "id": 160,
+    "name": "Bushi \"Sabi\"",
+    "model_path": "pl001_0000",
+    "name_ja": "烈火【寂】",
+    "name_zh": "烈火【寂】"
+  },
+  {
+    "id": 161,
+    "name": "Shamos",
+    "model_path": "pl058_0000",
+    "name_ja": "シャム",
+    "name_zh": "貓蜥龍"
+  },
+  {
+    "id": 162,
+    "name": "Shamos",
+    "model_path": "pl058_0000",
+    "name_ja": "シャム",
+    "name_zh": "貓蜥龍"
+  },
+  {
+    "id": 163,
+    "name": "Shamos",
+    "model_path": "pl058_0000",
+    "name_ja": "シャム",
+    "name_zh": "貓蜥龍"
+  },
+  {
+    "id": 164,
+    "name": "Butterfly",
+    "model_path": "pl019_0000 (Female Only)",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 165,
+    "name": "Butterfly",
+    "model_path": "pl019_0000 (Female Only)",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 166,
+    "name": "Butterfly",
+    "model_path": "pl019_0000 (Female Only)",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 167,
+    "name": "Bushi \"Sabi\"",
+    "model_path": null,
+    "name_ja": "烈火【寂】",
+    "name_zh": "烈火【寂】"
+  },
+  {
+    "id": 168,
+    "name": "Bushi \"Sabi\"",
+    "model_path": null,
+    "name_ja": "烈火【寂】",
+    "name_zh": "烈火【寂】"
+  },
+  {
+    "id": 169,
+    "name": "Origin",
+    "model_path": "pl018_0000",
+    "name_ja": "オリジン",
+    "name_zh": "起源"
+  },
+  {
+    "id": 170,
+    "name": "Bushi \"Homare\"",
+    "model_path": "pl001_0000",
+    "name_ja": "烈火【誉】",
+    "name_zh": "烈火【譽】"
+  },
+  {
+    "id": 171,
+    "name": "Bushi \"Homare\"",
+    "model_path": "pl001_0000",
+    "name_ja": "烈火【誉】",
+    "name_zh": "烈火【譽】"
+  },
+  {
+    "id": 172,
+    "name": "Bushi \"Homare\"",
+    "model_path": "pl001_0000",
+    "name_ja": "烈火【誉】",
+    "name_zh": "烈火【譽】"
+  },
+  {
+    "id": 173,
+    "name": "Bushi \"Homare\"",
+    "model_path": "pl001_0000",
+    "name_ja": "烈火【誉】",
+    "name_zh": "烈火【譽】"
+  },
+  {
+    "id": 174,
+    "name": "Bushi \"Homare\"",
+    "model_path": "pl059_0000",
+    "name_ja": "烈火【誉】",
+    "name_zh": "烈火【譽】"
+  },
+  {
+    "id": 175,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 176,
+    "name": "Strategist",
+    "model_path": "pl060_0000",
+    "name_ja": "知略の眼鏡α",
+    "name_zh": "知性眼鏡α"
+  },
+  {
+    "id": 177,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 178,
+    "name": "Dragonking",
+    "model_path": "pl061_0000",
+    "name_ja": "竜王の隻眼α",
+    "name_zh": "龍王的獨眼α"
+  },
+  {
+    "id": 179,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 180,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 181,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 182,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 183,
+    "name": "Kulve Taroth",
+    "model_path": "pl049_0000",
+    "name_ja": "マムガイラα",
+    "name_zh": "絢輝龍鎧羅α"
+  },
+  {
+    "id": 184,
+    "name": "Kulve Taroth",
+    "model_path": "pl049_0010",
+    "name_ja": "マムガイラα",
+    "name_zh": "絢輝龍鎧羅α"
+  },
+  {
+    "id": 185,
+    "name": "Blossom",
+    "model_path": "pl074_0000",
+    "name_ja": "ブロッサム",
+    "name_zh": "巴魯特"
+  },
+  {
+    "id": 186,
+    "name": "Diver",
+    "model_path": "pl075_0000",
+    "name_ja": "ダイバー",
+    "name_zh": "潛水夫"
+  },
+  {
+    "id": 187,
+    "name": "Harvest",
+    "model_path": "pl076_0000",
+    "name_ja": "ハーベスト",
+    "name_zh": "收穫"
+  },
+  {
+    "id": 188,
+    "name": "Orion",
+    "model_path": "pl077_0000",
+    "name_ja": "オリオン",
+    "name_zh": "獵戶星"
+  },
+  {
+    "id": 189,
+    "name": "Gala Suit",
+    "model_path": "pl078_0000",
+    "name_ja": "フルドレス",
+    "name_zh": "盛裝"
+  },
+  {
+    "id": 190,
+    "name": "Samurai",
+    "model_path": "pl067_0000",
+    "name_ja": "サムライ",
+    "name_zh": "武士"
+  },
+  {
+    "id": 191,
+    "name": "Deviljho",
+    "model_path": "pl050_0000",
+    "name_ja": "バンギスα",
+    "name_zh": "殘虐α"
+  },
+  {
+    "id": 192,
+    "name": "Deviljho",
+    "model_path": "pl050_0010",
+    "name_ja": "バンギスα",
+    "name_zh": "殘虐α"
+  },
+  {
+    "id": 193,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 194,
+    "name": "Bushi \"Sabi\"",
+    "model_path": "pl066_0000",
+    "name_ja": "烈火【寂】",
+    "name_zh": "烈火【寂】"
+  },
+  {
+    "id": 195,
+    "name": "Bushi \"Homare\"",
+    "model_path": "pl066_0010",
+    "name_ja": "烈火【誉】",
+    "name_zh": "烈火【譽】"
+  },
+  {
+    "id": 196,
+    "name": "Drachen",
+    "model_path": "pl073_0000",
+    "name_ja": "ドラケンα",
+    "name_zh": "騰龍α"
+  },
+  {
+    "id": 197,
+    "name": "Blossom",
+    "model_path": "pl074_0000",
+    "name_ja": "ブロッサム",
+    "name_zh": "巴魯特"
+  },
+  {
+    "id": 198,
+    "name": "Diver",
+    "model_path": "pl075_0000",
+    "name_ja": "ダイバー",
+    "name_zh": "潛水夫"
+  },
+  {
+    "id": 199,
+    "name": "Harvest",
+    "model_path": "pl076_0000",
+    "name_ja": "ハーベスト",
+    "name_zh": "收穫"
+  },
+  {
+    "id": 200,
+    "name": "Orion",
+    "model_path": "pl077_0000",
+    "name_ja": "オリオン",
+    "name_zh": "獵戶星"
+  },
+  {
+    "id": 201,
+    "name": "Gala Suit",
+    "model_path": "pl078_0000",
+    "name_ja": "フルドレス",
+    "name_zh": "盛裝"
+  },
+  {
+    "id": 202,
+    "name": "Butterfly",
+    "model_path": "pl057_0000 (Male Only)",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 203,
+    "name": "Butterfly",
+    "model_path": "pl057_0000 (Male Only)",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 204,
+    "name": "Butterfly",
+    "model_path": "pl057_0010 (Male Only)",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 205,
+    "name": "Queen Beetle",
+    "model_path": "pl057_0000 (Female Only)",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 206,
+    "name": "Queen Beetle",
+    "model_path": "pl057_0000 (Female Only)",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 207,
+    "name": "Queen Beetle",
+    "model_path": "pl057_0000 (Female Only)",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 208,
+    "name": "Vaal Hazak",
+    "model_path": "pl032_0020",
+    "name_ja": "ウルズα",
+    "name_zh": "烏爾德α"
+  },
+  {
+    "id": 209,
+    "name": "Kirin",
+    "model_path": "pl035_0020",
+    "name_ja": "キリン",
+    "name_zh": "麒麟"
+  },
+  {
+    "id": 210,
+    "name": "Teostra",
+    "model_path": "pl046_0020",
+    "name_ja": "カイザーα",
+    "name_zh": "帝王α"
+  },
+  {
+    "id": 211,
+    "name": "Kushala",
+    "model_path": "pl047_0020",
+    "name_ja": "クシャナα",
+    "name_zh": "鋼龍α"
+  },
+  {
+    "id": 212,
+    "name": "Nergigante",
+    "model_path": "pl030_0020",
+    "name_ja": "オーグα",
+    "name_zh": "戰紋α"
+  },
+  {
+    "id": 213,
+    "name": "Zorah",
+    "model_path": "pl038_0020",
+    "name_ja": "ゾラマグナα",
+    "name_zh": "鑄島熔岩α"
+  },
+  {
+    "id": 214,
+    "name": "Xeno'jiiva",
+    "model_path": "pl045_0020",
+    "name_ja": "ゼノラージα",
+    "name_zh": "冥燈幽火α"
+  },
+  {
+    "id": 215,
+    "name": "HARDUMMY",
+    "model_path": "pl068_0000",
+    "name_ja": "ダミー",
+    "name_zh": "占位裝備"
+  },
+  {
+    "id": 216,
+    "name": "Ryu",
+    "model_path": "pl069_0000",
+    "name_ja": "リュウ",
+    "name_zh": "隆"
+  },
+  {
+    "id": 217,
+    "name": "Ryu",
+    "model_path": "pl069_0000",
+    "name_ja": "リュウ",
+    "name_zh": "隆"
+  },
+  {
+    "id": 218,
+    "name": "Sakura",
+    "model_path": "pl070_0000",
+    "name_ja": "サクラ",
+    "name_zh": "櫻"
+  },
+  {
+    "id": 219,
+    "name": "Azure Starlord",
+    "model_path": "pl072_0000",
+    "name_ja": "蒼星ノ将α",
+    "name_zh": "蒼星之將α"
+  },
+  {
+    "id": 220,
+    "name": "Dante",
+    "model_path": "pl071_0000",
+    "name_ja": "ダンテα",
+    "name_zh": "但丁α"
+  },
+  {
+    "id": 221,
+    "name": "Lunastra",
+    "model_path": "pl051_0000",
+    "name_ja": "エンプレスα",
+    "name_zh": "皇后α"
+  },
+  {
+    "id": 222,
+    "name": "Lunastra",
+    "model_path": "pl051_0010",
+    "name_ja": "エンプレスα",
+    "name_zh": "皇后α"
+  },
+  {
+    "id": 223,
+    "name": "Sealed Eyepatch",
+    "model_path": "pl063_0000",
+    "name_ja": "封印の眼帯α",
+    "name_zh": "封印的眼罩α"
+  },
+  {
+    "id": 224,
+    "name": "Shadow Shades",
+    "model_path": "pl062_0000",
+    "name_ja": "シャドウアイα",
+    "name_zh": "墨鏡α"
+  },
+  {
+    "id": 225,
+    "name": "Kulu-Ya-Ku Head",
+    "model_path": "pl065_0000",
+    "name_ja": "クルルフェイクα",
+    "name_zh": "扒手龍頭套α"
+  },
+  {
+    "id": 226,
+    "name": "Wiggler Head",
+    "model_path": "pl064_0000",
+    "name_ja": "ユラユラフェイクα",
+    "name_zh": "搖曳鰻頭套α"
+  },
+  {
+    "id": 227,
+    "name": "Butterfly",
+    "model_path": "pl117_0000",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 228,
+    "name": "Death Stench",
+    "model_path": "pl026_0000",
+    "name_ja": "デスギア",
+    "name_zh": "死神"
+  },
+  {
+    "id": 229,
+    "name": "Shadow Shades",
+    "model_path": "pl062_0000",
+    "name_ja": "シャドウアイα",
+    "name_zh": "墨鏡α"
+  },
+  {
+    "id": 230,
+    "name": "Dante",
+    "model_path": "pl071_0000",
+    "name_ja": "ダンテα",
+    "name_zh": "但丁α"
+  },
+  {
+    "id": 231,
+    "name": "Drachen",
+    "model_path": "pl073_0000",
+    "name_ja": "ドラケンα",
+    "name_zh": "騰龍α"
+  },
+  {
+    "id": 232,
+    "name": "Mosswine Mask",
+    "model_path": "pl056_0000",
+    "name_ja": "モスフェイクα",
+    "name_zh": "菌豬頭套α"
+  },
+  {
+    "id": 233,
+    "name": "Faux Felyne",
+    "model_path": "pl055_0000",
+    "name_ja": "アイルーフェイクα",
+    "name_zh": "艾路頭套α"
+  },
+  {
+    "id": 234,
+    "name": "Commission",
+    "model_path": "pl053_0000",
+    "name_ja": "シーカーα",
+    "name_zh": "追蹤者α"
+  },
+  {
+    "id": 235,
+    "name": "Sealed Eyepatch",
+    "model_path": "pl063_0000",
+    "name_ja": "封印の眼帯α",
+    "name_zh": "封印的眼罩α"
+  },
+  {
+    "id": 236,
+    "name": "Wiggler Head",
+    "model_path": "pl064_0000",
+    "name_ja": "ユラユラフェイクα",
+    "name_zh": "搖曳鰻頭套α"
+  },
+  {
+    "id": 237,
+    "name": "Origin",
+    "model_path": "pl018_0000",
+    "name_ja": "オリジン",
+    "name_zh": "起源"
+  },
+  {
+    "id": 238,
+    "name": "Beetle",
+    "model_path": "pl116_0000",
+    "name_ja": "パピオム",
+    "name_zh": "燕尾蝶男"
+  },
+  {
+    "id": 239,
+    "name": "Unavailable",
+    "model_path": "pl001_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 240,
+    "name": "Skull Mask",
+    "model_path": "pl054_0000",
+    "name_ja": "スカルα",
+    "name_zh": "骷髏α"
+  },
+  {
+    "id": 241,
+    "name": "Kulu-Ya-Ku Head",
+    "model_path": "pl065_0000",
+    "name_ja": "クルルフェイクα",
+    "name_zh": "扒手龍頭套α"
+  },
+  {
+    "id": 242,
+    "name": "HARDUMMY",
+    "model_path": "pl068_0000",
+    "name_ja": "ダミー",
+    "name_zh": "占位裝備"
+  },
+  {
+    "id": 243,
+    "name": "Lunastra",
+    "model_path": "pl051_0020",
+    "name_ja": "エンプレスα",
+    "name_zh": "皇后α"
+  },
+  {
+    "id": 244,
+    "name": "Geralt",
+    "model_path": "pl118_0000",
+    "name_ja": "ゲラルト",
+    "name_zh": "傑洛特"
+  },
+  {
+    "id": 245,
+    "name": "Ciri",
+    "model_path": "pl119_0000",
+    "name_ja": "シリ",
+    "name_zh": "希里"
+  },
+  {
+    "id": 246,
+    "name": "Geralt of Rivia",
+    "model_path": "pl118_0000",
+    "name_ja": "リヴィアのゲラルト",
+    "name_zh": "利維亞的傑洛特"
+  },
+  {
+    "id": 247,
+    "name": "Ciri",
+    "model_path": "pl119_0000",
+    "name_ja": "シリ",
+    "name_zh": "希里"
+  },
+  {
+    "id": 248,
+    "name": "Kulve Taroth",
+    "model_path": "pl049_0020",
+    "name_ja": "マムガイラα",
+    "name_zh": "絢輝龍鎧羅α"
+  },
+  {
+    "id": 249,
+    "name": "Defender",
+    "model_path": "pl121_0000",
+    "name_ja": "ディフェンダー",
+    "name_zh": "防衛隊"
+  },
+  {
+    "id": 250,
+    "name": "Direwolf+",
+    "model_path": "pl105_0000",
+    "name_ja": "ディアウルフ＋",
+    "name_zh": "冰狼犬＋"
+  },
+  {
+    "id": 251,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 252,
+    "name": "Bone+",
+    "model_path": "pl003_0000",
+    "name_ja": "EXボーンα",
+    "name_zh": "精英·骨製α"
+  },
+  {
+    "id": 253,
+    "name": "Bone+",
+    "model_path": "pl003_0000",
+    "name_ja": "EXボーンα",
+    "name_zh": "精英·骨製α"
+  },
+  {
+    "id": 254,
+    "name": "Alloy+",
+    "model_path": "pl004_0000",
+    "name_ja": "EXアロイα",
+    "name_zh": "精英·合金α"
+  },
+  {
+    "id": 255,
+    "name": "Alloy+",
+    "model_path": "pl004_0000",
+    "name_ja": "EXアロイα",
+    "name_zh": "精英·合金α"
+  },
+  {
+    "id": 256,
+    "name": "Vespoid+",
+    "model_path": "pl007_0001",
+    "name_ja": "EXランゴα",
+    "name_zh": "精英·巨蜂α"
+  },
+  {
+    "id": 257,
+    "name": "Vespoid+",
+    "model_path": "pl007_0001",
+    "name_ja": "EXランゴα",
+    "name_zh": "精英·巨蜂α"
+  },
+  {
+    "id": 258,
+    "name": "Hornetaur+",
+    "model_path": "pl017_0001",
+    "name_ja": "EXタロスα",
+    "name_zh": "精英·巨甲蟲α"
+  },
+  {
+    "id": 259,
+    "name": "Hornetaur+",
+    "model_path": "pl017_0001",
+    "name_ja": "EXタロスα",
+    "name_zh": "精英·巨甲蟲α"
+  },
+  {
+    "id": 260,
+    "name": "Kestodon+",
+    "model_path": "pl005_0000",
+    "name_ja": "EXケストα",
+    "name_zh": "精英·冠突龍α"
+  },
+  {
+    "id": 261,
+    "name": "Kestodon+",
+    "model_path": "pl005_0000",
+    "name_ja": "EXケストα",
+    "name_zh": "精英·冠突龍α"
+  },
+  {
+    "id": 262,
+    "name": "Gajau+",
+    "model_path": "pl006_0000",
+    "name_ja": "EXガライーα",
+    "name_zh": "精英·咬魚α"
+  },
+  {
+    "id": 263,
+    "name": "Gajau+",
+    "model_path": "pl006_0000",
+    "name_ja": "EXガライーα",
+    "name_zh": "精英·咬魚α"
+  },
+  {
+    "id": 264,
+    "name": "Shamos+",
+    "model_path": "pl058_0000",
+    "name_ja": "EXシャムα",
+    "name_zh": "精英·貓蜥龍α"
+  },
+  {
+    "id": 265,
+    "name": "Shamos+",
+    "model_path": "pl058_0000",
+    "name_ja": "EXシャムα",
+    "name_zh": "精英·貓蜥龍α"
+  },
+  {
+    "id": 266,
+    "name": "Gastodon+",
+    "model_path": "pl015_0000",
+    "name_ja": "EXガストα",
+    "name_zh": "精英·突擊龍α"
+  },
+  {
+    "id": 267,
+    "name": "Gastodon+",
+    "model_path": "pl015_0000",
+    "name_ja": "EXガストα",
+    "name_zh": "精英·突擊龍α"
+  },
+  {
+    "id": 268,
+    "name": "Barnos+",
+    "model_path": "pl016_0000",
+    "name_ja": "EXバルノスα",
+    "name_zh": "精英·酸翼龍α"
+  },
+  {
+    "id": 269,
+    "name": "Barnos+",
+    "model_path": "pl016_0000",
+    "name_ja": "EXバルノスα",
+    "name_zh": "精英·酸翼龍α"
+  },
+  {
+    "id": 270,
+    "name": "Wulg+",
+    "model_path": "pl102_0000",
+    "name_ja": "EXウルグα",
+    "name_zh": "精英·冰豺龍α"
+  },
+  {
+    "id": 271,
+    "name": "Wulg+",
+    "model_path": "pl102_0000",
+    "name_ja": "EXウルグα",
+    "name_zh": "精英·冰豺龍α"
+  },
+  {
+    "id": 272,
+    "name": "Cortos+",
+    "model_path": "pl103_0000",
+    "name_ja": "EXコルトスα",
+    "name_zh": "精英·冬翼龍α"
+  },
+  {
+    "id": 273,
+    "name": "Cortos+",
+    "model_path": "pl103_0000",
+    "name_ja": "EXコルトスα",
+    "name_zh": "精英·冬翼龍α"
+  },
+  {
+    "id": 274,
+    "name": "Jagras+",
+    "model_path": "pl008_0001",
+    "name_ja": "EXジャグラスα",
+    "name_zh": "精英·凶豺龍α"
+  },
+  {
+    "id": 275,
+    "name": "Jagras+",
+    "model_path": "pl008_0001",
+    "name_ja": "EXジャグラスα",
+    "name_zh": "精英·凶豺龍α"
+  },
+  {
+    "id": 276,
+    "name": "Tzitzi+",
+    "model_path": "pl023_0001",
+    "name_ja": "EXツィツィα",
+    "name_zh": "精英·眩鳥α"
+  },
+  {
+    "id": 277,
+    "name": "Tzitzi+",
+    "model_path": "pl023_0001",
+    "name_ja": "EXツィツィα",
+    "name_zh": "精英·眩鳥α"
+  },
+  {
+    "id": 278,
+    "name": "Girros+",
+    "model_path": "pl022_0001",
+    "name_ja": "EXギルオスα",
+    "name_zh": "精英·凶顎龍α"
+  },
+  {
+    "id": 279,
+    "name": "Girros+",
+    "model_path": "pl022_0001",
+    "name_ja": "EXギルオスα",
+    "name_zh": "精英·凶顎龍α"
+  },
+  {
+    "id": 280,
+    "name": "Dodogama+",
+    "model_path": "pl039_0001",
+    "name_ja": "EXガマルα",
+    "name_zh": "精英·岩賊龍α"
+  },
+  {
+    "id": 281,
+    "name": "Dodogama+",
+    "model_path": "pl039_0001",
+    "name_ja": "EXガマルα",
+    "name_zh": "精英·岩賊龍α"
+  },
+  {
+    "id": 282,
+    "name": "Kulu+",
+    "model_path": "pl009_0001",
+    "name_ja": "EXクルルα",
+    "name_zh": "精英·搔鳥α"
+  },
+  {
+    "id": 283,
+    "name": "Kulu+",
+    "model_path": "pl009_0001",
+    "name_ja": "EXクルルα",
+    "name_zh": "精英·搔鳥α"
+  },
+  {
+    "id": 284,
+    "name": "Pukei+",
+    "model_path": "pl010_0001",
+    "name_ja": "EXプケプケα",
+    "name_zh": "精英·毒妖鳥α"
+  },
+  {
+    "id": 285,
+    "name": "Pukei+",
+    "model_path": "pl010_0001",
+    "name_ja": "EXプケプケα",
+    "name_zh": "精英·毒妖鳥α"
+  },
+  {
+    "id": 286,
+    "name": "Barroth+",
+    "model_path": "pl012_0001",
+    "name_ja": "EXボロスα",
+    "name_zh": "精英·土砂龍α"
+  },
+  {
+    "id": 287,
+    "name": "Barroth+",
+    "model_path": "pl012_0001",
+    "name_ja": "EXボロスα",
+    "name_zh": "精英·土砂龍α"
+  },
+  {
+    "id": 288,
+    "name": "Jyura+",
+    "model_path": "pl011_0001",
+    "name_ja": "EXジュラα",
+    "name_zh": "精英·泥魚龍α"
+  },
+  {
+    "id": 289,
+    "name": "Jyura+",
+    "model_path": "pl011_0001",
+    "name_ja": "EXジュラα",
+    "name_zh": "精英·泥魚龍α"
+  },
+  {
+    "id": 290,
+    "name": "Beo+",
+    "model_path": "pl110_0000",
+    "name_ja": "EXブランα",
+    "name_zh": "精英·冰魚龍α"
+  },
+  {
+    "id": 291,
+    "name": "Beo+",
+    "model_path": "pl110_0000",
+    "name_ja": "EXブランα",
+    "name_zh": "精英·冰魚龍α"
+  },
+  {
+    "id": 292,
+    "name": "Kadachi+",
+    "model_path": "pl013_0001",
+    "name_ja": "EXカガチα",
+    "name_zh": "精英·飛雷龍α"
+  },
+  {
+    "id": 293,
+    "name": "Kadachi+",
+    "model_path": "pl013_0001",
+    "name_ja": "EXカガチα",
+    "name_zh": "精英·飛雷龍α"
+  },
+  {
+    "id": 294,
+    "name": "High Metal+",
+    "model_path": "pl025_0000",
+    "name_ja": "EXハイメタα",
+    "name_zh": "精英·礦石α"
+  },
+  {
+    "id": 295,
+    "name": "High Metal+",
+    "model_path": "pl025_0000",
+    "name_ja": "EXハイメタα",
+    "name_zh": "精英·礦石α"
+  },
+  {
+    "id": 296,
+    "name": "Banbaro+",
+    "model_path": "pl084_0000",
+    "name_ja": "EXバフバロα",
+    "name_zh": "精英·猛牛龍α"
+  },
+  {
+    "id": 297,
+    "name": "Banbaro+",
+    "model_path": "pl084_0010",
+    "name_ja": "EXバフバロα",
+    "name_zh": "精英·猛牛龍α"
+  },
+  {
+    "id": 298,
+    "name": "Anja+",
+    "model_path": "pl020_0001",
+    "name_ja": "EXジャナフα",
+    "name_zh": "精英·蠻顎龍α"
+  },
+  {
+    "id": 299,
+    "name": "Anja+",
+    "model_path": "pl020_0011",
+    "name_ja": "EXジャナフα",
+    "name_zh": "精英·蠻顎龍α"
+  },
+  {
+    "id": 300,
+    "name": "Rathian+",
+    "model_path": "pl021_0001",
+    "name_ja": "EXレイアα",
+    "name_zh": "精英·雌火龍α"
+  },
+  {
+    "id": 301,
+    "name": "Rathian+",
+    "model_path": "pl021_0011",
+    "name_ja": "EXレイアα",
+    "name_zh": "精英·雌火龍α"
+  },
+  {
+    "id": 302,
+    "name": "Rath Heart+",
+    "model_path": "pl021_0101",
+    "name_ja": "EXリオハートα",
+    "name_zh": "精英·火龍心α"
+  },
+  {
+    "id": 303,
+    "name": "Rath Heart+",
+    "model_path": "pl021_0111",
+    "name_ja": "EXリオハートα",
+    "name_zh": "精英·火龍心α"
+  },
+  {
+    "id": 304,
+    "name": "Lumu+",
+    "model_path": "pl024_0001",
+    "name_ja": "EXウルムーα",
+    "name_zh": "精英·浮空龍α"
+  },
+  {
+    "id": 305,
+    "name": "Lumu+",
+    "model_path": "pl024_0001",
+    "name_ja": "EXウルムーα",
+    "name_zh": "精英·浮空龍α"
+  },
+  {
+    "id": 306,
+    "name": "Lumu Phantasm+",
+    "model_path": "pl024_0101",
+    "name_ja": "EXウルムメアα",
+    "name_zh": "精英·浮夢α"
+  },
+  {
+    "id": 307,
+    "name": "Lumu Phantasm+",
+    "model_path": "pl024_0101",
+    "name_ja": "EXウルムメアα",
+    "name_zh": "精英·浮夢α"
+  },
+  {
+    "id": 308,
+    "name": "Coral Pukei+",
+    "model_path": "pl010_0101",
+    "name_ja": "EXプケラグーナα",
+    "name_zh": "精英·妖水α"
+  },
+  {
+    "id": 309,
+    "name": "Coral Pukei+",
+    "model_path": "pl010_0101",
+    "name_ja": "EXプケラグーナα",
+    "name_zh": "精英·妖水α"
+  },
+  {
+    "id": 310,
+    "name": "Viper Kadachi+",
+    "model_path": "pl013_0101",
+    "name_ja": "EXベニカガチα",
+    "name_zh": "精英·朱毒α"
+  },
+  {
+    "id": 311,
+    "name": "Viper Kadachi+",
+    "model_path": "pl013_0101",
+    "name_ja": "EXベニカガチα",
+    "name_zh": "精英·朱毒α"
+  },
+  {
+    "id": 312,
+    "name": "Baan+",
+    "model_path": "pl028_0001",
+    "name_ja": "EXバルキンα",
+    "name_zh": "精英·骨鎚龍α"
+  },
+  {
+    "id": 313,
+    "name": "Baan+",
+    "model_path": "pl028_0001",
+    "name_ja": "EXバルキンα",
+    "name_zh": "精英·骨鎚龍α"
+  },
+  {
+    "id": 314,
+    "name": "Leather",
+    "model_path": "pl001_0000",
+    "name_ja": "レザー",
+    "name_zh": "皮製"
+  },
+  {
+    "id": 315,
+    "name": "Chain",
+    "model_path": "pl014_0000",
+    "name_ja": "チェーン",
+    "name_zh": "鎖甲"
+  },
+  {
+    "id": 316,
+    "name": "Hunter",
+    "model_path": "pl002_0000",
+    "name_ja": "ハンター",
+    "name_zh": "獵人"
+  },
+  {
+    "id": 317,
+    "name": "Hunter",
+    "model_path": "pl002_0010",
+    "name_ja": "ハンター",
+    "name_zh": "獵人"
+  },
+  {
+    "id": 318,
+    "name": "Bone",
+    "model_path": "pl003_0000",
+    "name_ja": "ボーン",
+    "name_zh": "骨製"
+  },
+  {
+    "id": 319,
+    "name": "Alloy",
+    "model_path": "pl004_0000",
+    "name_ja": "アロイ",
+    "name_zh": "合金"
+  },
+  {
+    "id": 320,
+    "name": "Vespoid",
+    "model_path": "pl007_0000",
+    "name_ja": "ランゴ",
+    "name_zh": "巨蜂"
+  },
+  {
+    "id": 321,
+    "name": "Hornetaur",
+    "model_path": "pl017_0000",
+    "name_ja": "タロス",
+    "name_zh": "巨甲蟲"
+  },
+  {
+    "id": 322,
+    "name": "Kestodon",
+    "model_path": "pl005_0000",
+    "name_ja": "ケスト",
+    "name_zh": "冠突龍"
+  },
+  {
+    "id": 323,
+    "name": "Gajau",
+    "model_path": "pl006_0000",
+    "name_ja": "ガライー",
+    "name_zh": "咬魚"
+  },
+  {
+    "id": 324,
+    "name": "Unavailable",
+    "model_path": "pl095_0000",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 325,
+    "name": "Goldspring Macaque",
+    "model_path": "pl113_0001",
+    "name_ja": "ギンセンザル",
+    "name_zh": "溫泉金猴"
+  },
+  {
+    "id": 326,
+    "name": "Shamos",
+    "model_path": "pl058_0000",
+    "name_ja": "シャム",
+    "name_zh": "貓蜥龍"
+  },
+  {
+    "id": 327,
+    "name": "Faux Kelbi",
+    "model_path": "pl096_0000",
+    "name_ja": "ケルビフェイク",
+    "name_zh": "角龍頭套"
+  },
+  {
+    "id": 328,
+    "name": "Ingot+",
+    "model_path": "pl031_0000",
+    "name_ja": "EXインゴットα",
+    "name_zh": "精英·鑄鐵α"
+  },
+  {
+    "id": 329,
+    "name": "Ingot+",
+    "model_path": "pl031_0000",
+    "name_ja": "EXインゴットα",
+    "name_zh": "精英·鑄鐵α"
+  },
+  {
+    "id": 330,
+    "name": "Barioth+",
+    "model_path": "pl089_0000",
+    "name_ja": "EXベリオα",
+    "name_zh": "精英·冰牙龍α"
+  },
+  {
+    "id": 331,
+    "name": "Barioth+",
+    "model_path": "pl089_0010",
+    "name_ja": "EXベリオα",
+    "name_zh": "精英·冰牙龍α"
+  },
+  {
+    "id": 332,
+    "name": "Rathalos+",
+    "model_path": "pl033_0001",
+    "name_ja": "EXレウスα",
+    "name_zh": "精英·火龍α"
+  },
+  {
+    "id": 333,
+    "name": "Rathalos+",
+    "model_path": "pl033_0011",
+    "name_ja": "EXレウスα",
+    "name_zh": "精英·火龍α"
+  },
+  {
+    "id": 334,
+    "name": "Diablos+",
+    "model_path": "pl034_0001",
+    "name_ja": "EXディアブロα",
+    "name_zh": "精英·角龍α"
+  },
+  {
+    "id": 335,
+    "name": "Diablos+",
+    "model_path": "pl034_0011",
+    "name_ja": "EXディアブロα",
+    "name_zh": "精英·角龍α"
+  },
+  {
+    "id": 336,
+    "name": "Legiana+",
+    "model_path": "pl027_0001",
+    "name_ja": "EXギエナα",
+    "name_zh": "精英·風漂龍α"
+  },
+  {
+    "id": 337,
+    "name": "Legiana+",
+    "model_path": "pl027_0011",
+    "name_ja": "EXギエナα",
+    "name_zh": "精英·風漂龍α"
+  },
+  {
+    "id": 338,
+    "name": "Odogaron+",
+    "model_path": "pl029_0001",
+    "name_ja": "EXガロンα",
+    "name_zh": "精英·慘爪α"
+  },
+  {
+    "id": 339,
+    "name": "Odogaron+",
+    "model_path": "pl029_0011",
+    "name_ja": "EXガロンα",
+    "name_zh": "精英·慘爪α"
+  },
+  {
+    "id": 340,
+    "name": "Lavasioth+",
+    "model_path": "pl040_0001",
+    "name_ja": "EXラヴァα",
+    "name_zh": "精英·熔岩龍α"
+  },
+  {
+    "id": 341,
+    "name": "Lavasioth+",
+    "model_path": "pl040_0001",
+    "name_ja": "EXラヴァα",
+    "name_zh": "精英·熔岩龍α"
+  },
+  {
+    "id": 342,
+    "name": "Uragaan+",
+    "model_path": "pl041_0001",
+    "name_ja": "EXガンキンα",
+    "name_zh": "精英·爆鎚龍α"
+  },
+  {
+    "id": 343,
+    "name": "Uragaan+",
+    "model_path": "pl041_0001",
+    "name_ja": "EXガンキンα",
+    "name_zh": "精英·爆鎚龍α"
+  },
+  {
+    "id": 344,
+    "name": "Nargacuga+",
+    "model_path": "pl080_0000",
+    "name_ja": "EXナルガα",
+    "name_zh": "精英·迅龍α"
+  },
+  {
+    "id": 345,
+    "name": "Nargacuga+",
+    "model_path": "pl080_0010",
+    "name_ja": "EXナルガα",
+    "name_zh": "精英·迅龍α"
+  },
+  {
+    "id": 346,
+    "name": "Glavenus+",
+    "model_path": "pl081_0000",
+    "name_ja": "EXディノα",
+    "name_zh": "精英·斬龍α"
+  },
+  {
+    "id": 347,
+    "name": "Glavenus+",
+    "model_path": "pl081_0010",
+    "name_ja": "EXディノα",
+    "name_zh": "精英·斬龍α"
+  },
+  {
+    "id": 348,
+    "name": "Brachydios+",
+    "model_path": "pl082_0000",
+    "name_ja": "EXブラキα",
+    "name_zh": "精英·碎龍α"
+  },
+  {
+    "id": 349,
+    "name": "Brachydios+",
+    "model_path": "pl082_0010",
+    "name_ja": "EXブラキα",
+    "name_zh": "精英·碎龍α"
+  },
+  {
+    "id": 350,
+    "name": "Tigrex+",
+    "model_path": "pl083_0000",
+    "name_ja": "EXレックスα",
+    "name_zh": "精英·轟龍α"
+  },
+  {
+    "id": 351,
+    "name": "Tigrex+",
+    "model_path": "pl083_0010",
+    "name_ja": "EXレックスα",
+    "name_zh": "精英·轟龍α"
+  },
+  {
+    "id": 352,
+    "name": "Fulgur Anja+",
+    "model_path": "pl020_0101",
+    "name_ja": "EXジャナールα",
+    "name_zh": "精英·雷顎α"
+  },
+  {
+    "id": 353,
+    "name": "Fulgur Anja+",
+    "model_path": "pl020_0111",
+    "name_ja": "EXジャナールα",
+    "name_zh": "精英·雷顎α"
+  },
+  {
+    "id": 354,
+    "name": "Jagras",
+    "model_path": "pl008_0000",
+    "name_ja": "ジャグラス",
+    "name_zh": "凶豺龍"
+  },
+  {
+    "id": 355,
+    "name": "Kulu-Ya-Ku",
+    "model_path": "pl009_0000",
+    "name_ja": "クルル",
+    "name_zh": "搔鳥"
+  },
+  {
+    "id": 356,
+    "name": "Black Belt+",
+    "model_path": "pl093_0000",
+    "name_ja": "EXクロオビα",
+    "name_zh": "精英·黑帶α"
+  },
+  {
+    "id": 357,
+    "name": "Black Belt+",
+    "model_path": "pl093_0000",
+    "name_ja": "EXクロオビα",
+    "name_zh": "精英·黑帶α"
+  },
+  {
+    "id": 358,
+    "name": "Dragonking Eyepatch",
+    "model_path": "pl061_0000",
+    "name_ja": "竜王の隻眼α",
+    "name_zh": "龍王的獨眼α"
+  },
+  {
+    "id": 359,
+    "name": "Strategist Spectacles",
+    "model_path": "pl060_0000",
+    "name_ja": "知略の眼鏡α",
+    "name_zh": "知性眼鏡α"
+  },
+  {
+    "id": 360,
+    "name": "Pulverizing Feather",
+    "model_path": "pl037_0000",
+    "name_ja": "粉塵の羽飾り",
+    "name_zh": "粉碎羽毛"
+  },
+  {
+    "id": 361,
+    "name": "Tzitzi-Ya-Ku",
+    "model_path": "pl023_0000",
+    "name_ja": "ツィツィ",
+    "name_zh": "眩鳥"
+  },
+  {
+    "id": 362,
+    "name": "Great Girros",
+    "model_path": "pl022_0000",
+    "name_ja": "ギルオス",
+    "name_zh": "凶顎龍"
+  },
+  {
+    "id": 363,
+    "name": "Shrieking Legia+",
+    "model_path": "pl027_0500",
+    "name_ja": "EXブリーナα",
+    "name_zh": "精英·霜漂α"
+  },
+  {
+    "id": 364,
+    "name": "Shrieking Legia+",
+    "model_path": "pl027_0510",
+    "name_ja": "EXブリーナα",
+    "name_zh": "精英·霜漂α"
+  },
+  {
+    "id": 365,
+    "name": "Rath Soul+",
+    "model_path": "pl033_0101",
+    "name_ja": "EXリオソウルα",
+    "name_zh": "精英·火龍魂α"
+  },
+  {
+    "id": 366,
+    "name": "Rath Soul+",
+    "model_path": "pl033_0111",
+    "name_ja": "EXリオソウルα",
+    "name_zh": "精英·火龍魂α"
+  },
+  {
+    "id": 367,
+    "name": "Diablos Nero+",
+    "model_path": "pl034_0101",
+    "name_ja": "EXディアネロα",
+    "name_zh": "精英·暴君角龍α"
+  },
+  {
+    "id": 368,
+    "name": "Diablos Nero+",
+    "model_path": "pl034_0111",
+    "name_ja": "EXディアネロα",
+    "name_zh": "精英·暴君角龍α"
+  },
+  {
+    "id": 369,
+    "name": "Death Garon+",
+    "model_path": "pl029_0101",
+    "name_ja": "EXデスガロンα",
+    "name_zh": "精英·亡爪α"
+  },
+  {
+    "id": 370,
+    "name": "Death Garon+",
+    "model_path": "pl029_0111",
+    "name_ja": "EXデスガロンα",
+    "name_zh": "精英·亡爪α"
+  },
+  {
+    "id": 371,
+    "name": "Acidic Glavenus+",
+    "model_path": "pl081_0100",
+    "name_ja": "EXディノイエロα",
+    "name_zh": "精英·斬黃α"
+  },
+  {
+    "id": 372,
+    "name": "Acidic Glavenus+",
+    "model_path": "pl081_0110",
+    "name_ja": "EXディノイエロα",
+    "name_zh": "精英·斬黃α"
+  },
+  {
+    "id": 373,
+    "name": "Artian+",
+    "model_path": "pl091_0000",
+    "name_ja": "EXアーティアα",
+    "name_zh": "精英·機械α"
+  },
+  {
+    "id": 374,
+    "name": "Artian+",
+    "model_path": "pl091_0000",
+    "name_ja": "EXアーティアα",
+    "name_zh": "精英·機械α"
+  },
+  {
+    "id": 375,
+    "name": "Skull Scarf",
+    "model_path": "pl099_0000",
+    "name_ja": "スカルα",
+    "name_zh": "骷髏α"
+  },
+  {
+    "id": 376,
+    "name": "Pukei-Pukei",
+    "model_path": "pl010_0000",
+    "name_ja": "プケプケ",
+    "name_zh": "毒妖鳥"
+  },
+  {
+    "id": 377,
+    "name": "Pukei-Pukei",
+    "model_path": "pl010_0010",
+    "name_ja": "プケプケ",
+    "name_zh": "毒妖鳥"
+  },
+  {
+    "id": 378,
+    "name": "Dober+",
+    "model_path": "pl044_0000",
+    "name_ja": "EXドーベルα",
+    "name_zh": "精英·杜賓α"
+  },
+  {
+    "id": 379,
+    "name": "Dober+",
+    "model_path": "pl044_0000",
+    "name_ja": "EXドーベルα",
+    "name_zh": "精英·杜賓α"
+  },
+  {
+    "id": 380,
+    "name": "Damascus+",
+    "model_path": "pl043_0000",
+    "name_ja": "EXダマスクα",
+    "name_zh": "精英·大馬士革α"
+  },
+  {
+    "id": 381,
+    "name": "Damascus+",
+    "model_path": "pl043_0010",
+    "name_ja": "EXダマスクα",
+    "name_zh": "精英·大馬士革α"
+  },
+  {
+    "id": 382,
+    "name": "Velkhana+",
+    "model_path": "pl085_0000",
+    "name_ja": "EXラヴィーナα",
+    "name_zh": "精英·雪崩α"
+  },
+  {
+    "id": 383,
+    "name": "Velkhana+",
+    "model_path": "pl085_0010",
+    "name_ja": "EXラヴィーナα",
+    "name_zh": "精英·雪崩α"
+  },
+  {
+    "id": 384,
+    "name": "Seething Bazel+",
+    "model_path": "pl042_0500",
+    "name_ja": "EXプライドα",
+    "name_zh": "精英·矜持α"
+  },
+  {
+    "id": 385,
+    "name": "Seething Bazel+",
+    "model_path": "pl042_0510",
+    "name_ja": "EXプライドα",
+    "name_zh": "精英·矜持α"
+  },
+  {
+    "id": 386,
+    "name": "Blackveil Hazak+",
+    "model_path": "pl032_0500",
+    "name_ja": "EXヴァルファーα",
+    "name_zh": "精英·死滅α"
+  },
+  {
+    "id": 387,
+    "name": "Blackveil Hazak+",
+    "model_path": "pl032_0510",
+    "name_ja": "EXヴァルファーα",
+    "name_zh": "精英·死滅α"
+  },
+  {
+    "id": 388,
+    "name": "Teostra+",
+    "model_path": "pl046_0001",
+    "name_ja": "EXカイザーα",
+    "name_zh": "精英·帝王α"
+  },
+  {
+    "id": 389,
+    "name": "Teostra+",
+    "model_path": "pl046_0011",
+    "name_ja": "EXカイザーα",
+    "name_zh": "精英·帝王α"
+  },
+  {
+    "id": 390,
+    "name": "Kushala+",
+    "model_path": "pl047_0001",
+    "name_ja": "EXクシャナα",
+    "name_zh": "精英·鋼龍α"
+  },
+  {
+    "id": 391,
+    "name": "Kushala+",
+    "model_path": "pl047_0011",
+    "name_ja": "EXクシャナα",
+    "name_zh": "精英·鋼龍α"
+  },
+  {
+    "id": 392,
+    "name": "Kirin+",
+    "model_path": "pl035_0001",
+    "name_ja": "EXキリンα",
+    "name_zh": "精英·麒麟α"
+  },
+  {
+    "id": 393,
+    "name": "Kirin+",
+    "model_path": "pl035_0011",
+    "name_ja": "EXキリンα",
+    "name_zh": "精英·麒麟α"
+  },
+  {
+    "id": 394,
+    "name": "Namielle+",
+    "model_path": "pl086_0000",
+    "name_ja": "EXテンタクルα",
+    "name_zh": "精英·觸角α"
+  },
+  {
+    "id": 395,
+    "name": "Namielle+",
+    "model_path": "pl086_0010",
+    "name_ja": "EXテンタクルα",
+    "name_zh": "精英·觸角α"
+  },
+  {
+    "id": 396,
+    "name": "Clockwork+",
+    "model_path": "pl104_0000",
+    "name_ja": "EXアークロックα",
+    "name_zh": "精英·蒸汽貴族α"
+  },
+  {
+    "id": 397,
+    "name": "Barroth",
+    "model_path": "pl012_0000",
+    "name_ja": "ボロス",
+    "name_zh": "土砂龍"
+  },
+  {
+    "id": 398,
+    "name": "Guild Palace+",
+    "model_path": "pl094_0000",
+    "name_ja": "EXギルドパレスα",
+    "name_zh": "精英·公會宮殿α"
+  },
+  {
+    "id": 399,
+    "name": "Guild Palace+",
+    "model_path": "pl094_0000",
+    "name_ja": "EXギルドパレスα",
+    "name_zh": "精英·公會宮殿α"
+  },
+  {
+    "id": 400,
+    "name": "Clockwork+",
+    "model_path": "pl104_0000",
+    "name_ja": "EXアークロックα",
+    "name_zh": "精英·蒸汽貴族α"
+  },
+  {
+    "id": 401,
+    "name": "Clockwork+",
+    "model_path": "pl104_0000",
+    "name_ja": "EXアークロックα",
+    "name_zh": "精英·蒸汽貴族α"
+  },
+  {
+    "id": 402,
+    "name": "Crystal Earring",
+    "model_path": "pl059_0000",
+    "name_ja": "クリスタルピアス",
+    "name_zh": "水晶耳環"
+  },
+  {
+    "id": 403,
+    "name": "Ruiner Nergi+",
+    "model_path": "pl030_0500",
+    "name_ja": "EXゾークα",
+    "name_zh": "精英·狂紋α"
+  },
+  {
+    "id": 404,
+    "name": "Ruiner Nergi+",
+    "model_path": "pl030_0510",
+    "name_ja": "EXゾークα",
+    "name_zh": "精英·狂紋α"
+  },
+  {
+    "id": 405,
+    "name": "Shara Ishvalda+",
+    "model_path": "pl088_0000",
+    "name_ja": "EXアンガルダα",
+    "name_zh": "精英·迦樓羅α"
+  },
+  {
+    "id": 406,
+    "name": "Shara Ishvalda+",
+    "model_path": "pl088_0010",
+    "name_ja": "EXアンガルダα",
+    "name_zh": "精英·迦樓羅α"
+  },
+  {
+    "id": 407,
+    "name": "Savage Jho+",
+    "model_path": "pl050_0500",
+    "name_ja": "EXグリードα",
+    "name_zh": "精英·貪欲α"
+  },
+  {
+    "id": 408,
+    "name": "Savage Jho+",
+    "model_path": "pl050_0510",
+    "name_ja": "EXグリードα",
+    "name_zh": "精英·貪欲α"
+  },
+  {
+    "id": 409,
+    "name": "Anjanath",
+    "model_path": "pl020_0000",
+    "name_ja": "ジャナフ",
+    "name_zh": "蠻顎龍"
+  },
+  {
+    "id": 410,
+    "name": "Anjanath",
+    "model_path": "pl020_0010",
+    "name_ja": "ジャナフ",
+    "name_zh": "蠻顎龍"
+  },
+  {
+    "id": 411,
+    "name": "Guildwork+",
+    "model_path": "pl092_0000",
+    "name_ja": "EXギルドワークα",
+    "name_zh": "精英·公會成果α"
+  },
+  {
+    "id": 412,
+    "name": "Guildwork+",
+    "model_path": "pl092_0000",
+    "name_ja": "EXギルドワークα",
+    "name_zh": "精英·公會成果α"
+  },
+  {
+    "id": 413,
+    "name": "Unavailable",
+    "model_path": "pl095_0010",
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 414,
+    "name": "Golden Lune+",
+    "model_path": "pl021_0200",
+    "name_ja": "EXゴールドルナα",
+    "name_zh": "精英·金黃澄月α"
+  },
+  {
+    "id": 415,
+    "name": "Golden Lune+",
+    "model_path": "pl021_0210",
+    "name_ja": "EXゴールドルナα",
+    "name_zh": "精英·金黃澄月α"
+  },
+  {
+    "id": 416,
+    "name": "Silver Sol+",
+    "model_path": "pl033_0200",
+    "name_ja": "EXシルバーソルα",
+    "name_zh": "精英·銀白耀日α"
+  },
+  {
+    "id": 417,
+    "name": "Silver Sol+",
+    "model_path": "pl033_0210",
+    "name_ja": "EXシルバーソルα",
+    "name_zh": "精英·銀白耀日α"
+  },
+  {
+    "id": 418,
+    "name": "Jyuratodus",
+    "model_path": "pl011_0000",
+    "name_ja": "ジュラ",
+    "name_zh": "泥魚龍"
+  },
+  {
+    "id": 419,
+    "name": "Tobi-Kadachi",
+    "model_path": "pl013_0000",
+    "name_ja": "カガチ",
+    "name_zh": "飛雷龍"
+  },
+  {
+    "id": 420,
+    "name": "Zinogre+",
+    "model_path": "pl107_0000",
+    "name_ja": "EXジンオウα",
+    "name_zh": "精英·雷狼龍α"
+  },
+  {
+    "id": 421,
+    "name": "Zinogre+",
+    "model_path": "pl107_0010",
+    "name_ja": "EXジンオウα",
+    "name_zh": "精英·雷狼龍α"
+  },
+  {
+    "id": 422,
+    "name": "Stygian Zin+",
+    "model_path": "pl107_0100",
+    "name_ja": "EXゴクオウα",
+    "name_zh": "精英·獄狼龍α"
+  },
+  {
+    "id": 423,
+    "name": "Stygian Zin+",
+    "model_path": "pl107_0110",
+    "name_ja": "EXゴクオウα",
+    "name_zh": "精英·獄狼龍α"
+  },
+  {
+    "id": 424,
+    "name": "Yian Garuga+",
+    "model_path": "pl108_0000",
+    "name_ja": "EXガルルガα",
+    "name_zh": "精英·黑狼鳥α"
+  },
+  {
+    "id": 425,
+    "name": "Yian Garuga+",
+    "model_path": "pl108_0010",
+    "name_ja": "EXガルルガα",
+    "name_zh": "精英·黑狼鳥α"
+  },
+  {
+    "id": 426,
+    "name": "Zorah+",
+    "model_path": "pl038_0000",
+    "name_ja": "EXゾラマグナα",
+    "name_zh": "精英·鑄島熔岩α"
+  },
+  {
+    "id": 427,
+    "name": "Zorah+",
+    "model_path": "pl038_0010",
+    "name_ja": "EXゾラマグナα",
+    "name_zh": "精英·鑄島熔岩α"
+  },
+  {
+    "id": 428,
+    "name": "Rajang+",
+    "model_path": "pl109_0000",
+    "name_ja": "EX金色α",
+    "name_zh": "精英·金色α"
+  },
+  {
+    "id": 429,
+    "name": "Rajang+",
+    "model_path": "pl109_0010",
+    "name_ja": "EX金色α",
+    "name_zh": "精英·金色α"
+  },
+  {
+    "id": 430,
+    "name": "Furious Rajang+",
+    "model_path": "pl109_0500",
+    "name_ja": "EX斉天α",
+    "name_zh": "精英·齊天α"
+  },
+  {
+    "id": 431,
+    "name": "Furious Rajang+",
+    "model_path": "pl109_0510",
+    "name_ja": "EX斉天α",
+    "name_zh": "精英·齊天α"
+  },
+  {
+    "id": 432,
+    "name": "Raging Brachy+",
+    "model_path": "pl082_0500",
+    "name_ja": "EXブラキウムα",
+    "name_zh": "精英·鐵腕α"
+  },
+  {
+    "id": 433,
+    "name": "Raging Brachy+",
+    "model_path": "pl082_0510",
+    "name_ja": "EXブラキウムα",
+    "name_zh": "精英·鐵腕α"
+  },
+  {
+    "id": 434,
+    "name": "Safi'jiiva+",
+    "model_path": "pl087_0000",
+    "name_ja": "EX龍紋α",
+    "name_zh": "精英‧龍紋α"
+  },
+  {
+    "id": 435,
+    "name": "Safi'jiiva+",
+    "model_path": "pl087_0010",
+    "name_ja": "EX龍紋α",
+    "name_zh": "精英‧龍紋α"
+  },
+  {
+    "id": 436,
+    "name": "Alatreon+",
+    "model_path": "pl052_0000",
+    "name_ja": "EXエスカドラα",
+    "name_zh": "精英·煌黑龍α"
+  },
+  {
+    "id": 437,
+    "name": "Alatreon+",
+    "model_path": "pl052_0010",
+    "name_ja": "EXエスカドラα",
+    "name_zh": "精英·煌黑龍α"
+  },
+  {
+    "id": 438,
+    "name": "Sealed Dragon Cloth+",
+    "model_path": "pl100_0000",
+    "name_ja": "EX封印の龍骸布α",
+    "name_zh": "精英‧封印的龍骸布α"
+  },
+  {
+    "id": 439,
+    "name": "Wyverian Ears+",
+    "model_path": "pl101_0000",
+    "name_ja": "EX竜人族の耳α",
+    "name_zh": "精英‧龍人族之耳α"
+  },
+  {
+    "id": 440,
+    "name": "Faux Aptonoth",
+    "model_path": "pl097_0000",
+    "name_ja": "草食竜フェイク",
+    "name_zh": "草食龍頭套"
+  },
+  {
+    "id": 441,
+    "name": "Duffel Penguin Mask+",
+    "model_path": "pl098_0000",
+    "name_ja": "EXキブクレフェイクα",
+    "name_zh": "精英‧企鵝頭套α"
+  },
+  {
+    "id": 442,
+    "name": "Lunastra+",
+    "model_path": "pl051_0001",
+    "name_ja": "EXエンプレスα",
+    "name_zh": "精英·皇后α"
+  },
+  {
+    "id": 443,
+    "name": "Lunastra+",
+    "model_path": "pl051_0011",
+    "name_ja": "EXエンプレスα",
+    "name_zh": "精英·皇后α"
+  },
+  {
+    "id": 444,
+    "name": "Kulve Taroth+",
+    "model_path": "pl049_0001",
+    "name_ja": "EXマムガイラα",
+    "name_zh": "精英·絢輝龍鎧羅α"
+  },
+  {
+    "id": 445,
+    "name": "Kulve Taroth+",
+    "model_path": "pl049_0011",
+    "name_ja": "EXマムガイラα",
+    "name_zh": "精英·絢輝龍鎧羅α"
+  },
+  {
+    "id": 446,
+    "name": "Rose+",
+    "model_path": "pl124_0000",
+    "name_ja": "EXローゼα",
+    "name_zh": "精英‧薔薇α"
+  },
+  {
+    "id": 447,
+    "name": "Paolumu",
+    "model_path": "pl024_0000",
+    "name_ja": "ウルムー",
+    "name_zh": "浮空龍"
+  },
+  {
+    "id": 448,
+    "name": "Passion+",
+    "model_path": "pl125_0000",
+    "name_ja": "パッション＋",
+    "name_zh": "熱情＋"
+  },
+  {
+    "id": 449,
+    "name": "Rathian",
+    "model_path": "pl021_0000",
+    "name_ja": "レイア",
+    "name_zh": "雌火龍"
+  },
+  {
+    "id": 450,
+    "name": "Demonlord+",
+    "model_path": "pl126_0000",
+    "name_ja": "鬼神＋",
+    "name_zh": "鬼神＋"
+  },
+  {
+    "id": 451,
+    "name": "Rathian",
+    "model_path": "pl021_0010",
+    "name_ja": "レイア",
+    "name_zh": "雌火龍"
+  },
+  {
+    "id": 452,
+    "name": "Oolong+",
+    "model_path": "pl127_0000",
+    "name_ja": "EXウーロンα",
+    "name_zh": "精英‧風火輪α"
+  },
+  {
+    "id": 453,
+    "name": "Radobaan",
+    "model_path": "pl028_0000",
+    "name_ja": "バルキン",
+    "name_zh": "骨鎚龍"
+  },
+  {
+    "id": 454,
+    "name": "Astral+",
+    "model_path": "pl128_0000",
+    "name_ja": "EXアストラα",
+    "name_zh": "精英‧阿斯特拉α"
+  },
+  {
+    "id": 455,
+    "name": "Radobaan",
+    "model_path": "pl028_0010",
+    "name_ja": "バルキン",
+    "name_zh": "骨鎚龍"
+  },
+  {
+    "id": 456,
+    "name": "Rose",
+    "model_path": "pl124_0000",
+    "name_ja": "EXローゼα",
+    "name_zh": "精英‧薔薇α"
+  },
+  {
+    "id": 457,
+    "name": "Passion",
+    "model_path": "pl125_0000",
+    "name_ja": "パッション",
+    "name_zh": "熱情"
+  },
+  {
+    "id": 458,
+    "name": "Demonlord",
+    "model_path": "pl126_0000",
+    "name_ja": "鬼神",
+    "name_zh": "鬼神"
+  },
+  {
+    "id": 459,
+    "name": "Oolong",
+    "model_path": "pl127_0000",
+    "name_ja": "EXウーロンα",
+    "name_zh": "精英‧風火輪α"
+  },
+  {
+    "id": 460,
+    "name": "Astral",
+    "model_path": "pl128_0000",
+    "name_ja": "EXアストラα",
+    "name_zh": "精英‧阿斯特拉α"
+  },
+  {
+    "id": 461,
+    "name": "High Metal",
+    "model_path": "pl025_0000",
+    "name_ja": "ハイメタ",
+    "name_zh": "礦石"
+  },
+  {
+    "id": 462,
+    "name": "Thermae",
+    "model_path": "pl106_0000",
+    "name_ja": "テルマエ",
+    "name_zh": "溫泉"
+  },
+  {
+    "id": 463,
+    "name": "Hare Band",
+    "model_path": "pl111_0000",
+    "name_ja": "ウサギカチューシャ",
+    "name_zh": "兔耳髮箍"
+  },
+  {
+    "id": 464,
+    "name": "Downy Crake",
+    "model_path": "pl112_0000",
+    "name_ja": "ヒレアシ",
+    "name_zh": "柔毛秧雞"
+  },
+  {
+    "id": 465,
+    "name": "Pearlspring+",
+    "model_path": "pl113_0000",
+    "name_ja": "EXギンセンザルα",
+    "name_zh": "精英·溫泉銀猴α"
+  },
+  {
+    "id": 466,
+    "name": "Kadachi Scarf",
+    "model_path": "pl114_0000",
+    "name_ja": "カガチスカーフ",
+    "name_zh": "飛雷龍圍巾"
+  },
+  {
+    "id": 467,
+    "name": "Buff Body+",
+    "model_path": "pl115_0000",
+    "name_ja": "マッチョ＋",
+    "name_zh": "健美＋"
+  },
+  {
+    "id": 468,
+    "name": "Brute Tigrex+",
+    "model_path": "pl083_0100",
+    "name_ja": "EXレックスロアα",
+    "name_zh": "精英·轟吼α"
+  },
+  {
+    "id": 469,
+    "name": "Brute Tigrex+",
+    "model_path": "pl083_0110",
+    "name_ja": "EXレックスロアα",
+    "name_zh": "精英·轟吼α"
+  },
+  {
+    "id": 470,
+    "name": "Guardian+",
+    "model_path": "pl121_0000",
+    "name_ja": "ガーディアン＋",
+    "name_zh": "守護者＋"
+  },
+  {
+    "id": 471,
+    "name": "Yukumo",
+    "model_path": "pl122_0000",
+    "name_ja": "ユクモ",
+    "name_zh": "結雲"
+  },
+  {
+    "id": 472,
+    "name": "Silver Knight",
+    "model_path": "pl123_0000",
+    "name_ja": "シルバーナイト",
+    "name_zh": "銀騎士"
+  },
+  {
+    "id": 473,
+    "name": "HARDUMMY",
+    "model_path": "pl068_0010",
+    "name_ja": "ダミー",
+    "name_zh": "占位裝備"
+  },
+  {
+    "id": 474,
+    "name": "Namielle+",
+    "model_path": "pl086_0020",
+    "name_ja": "EXテンタクルα",
+    "name_zh": "精英·觸角α"
+  },
+  {
+    "id": 475,
+    "name": "Azure Starlord",
+    "model_path": "pl072_0000",
+    "name_ja": "蒼星ノ将α",
+    "name_zh": "蒼星之將α"
+  },
+  {
+    "id": 476,
+    "name": "Azure Age+",
+    "model_path": "pl072_0001",
+    "name_ja": "蒼星ノ将α",
+    "name_zh": "蒼星之將α"
+  },
+  {
+    "id": 477,
+    "name": "Velkhana+",
+    "model_path": "pl085_0020",
+    "name_ja": "EXラヴィーナα",
+    "name_zh": "精英·雪崩α"
+  },
+  {
+    "id": 478,
+    "name": "Frostfang Barioth+",
+    "model_path": "pl089_0500",
+    "name_ja": "EXオルムングα",
+    "name_zh": "精英·霜刃冰牙龍α"
+  },
+  {
+    "id": 479,
+    "name": "Frostfang Barioth+",
+    "model_path": "pl089_0510",
+    "name_ja": "EXオルムングα",
+    "name_zh": "精英·霜刃冰牙龍α"
+  },
+  {
+    "id": 480,
+    "name": "Fatalis+",
+    "model_path": "pl129_0000",
+    "name_ja": "ミラボレアス＋",
+    "name_zh": "黑龍＋"
+  },
+  {
+    "id": 481,
+    "name": "Fatalis+",
+    "model_path": "pl129_0010",
+    "name_ja": "ミラボレアス＋",
+    "name_zh": "黑龍＋"
+  },
+  {
+    "id": 482,
+    "name": "HARDUMMY",
+    "model_path": "pl068_0020",
+    "name_ja": "ダミー",
+    "name_zh": "占位裝備"
+  },
+  {
+    "id": 483,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 484,
+    "name": "Leon+",
+    "model_path": "pl130_0000",
+    "name_ja": "レオン＋",
+    "name_zh": "里昂＋"
+  },
+  {
+    "id": 485,
+    "name": "Claire+",
+    "model_path": "pl131_0000",
+    "name_ja": "クレア＋",
+    "name_zh": "克蕾兒＋"
+  },
+  {
+    "id": 486,
+    "name": "Leon+",
+    "model_path": "pl130_0000",
+    "name_ja": "レオン＋",
+    "name_zh": "里昂＋"
+  },
+  {
+    "id": 487,
+    "name": "Claire+",
+    "model_path": "pl131_0000",
+    "name_ja": "クレア＋",
+    "name_zh": "克蕾兒＋"
+  },
+  {
+    "id": 488,
+    "name": "Gastodon",
+    "model_path": "pl015_0000",
+    "name_ja": "ガストα",
+    "name_zh": "突擊龍α"
+  },
+  {
+    "id": 489,
+    "name": "Barnos",
+    "model_path": "pl016_0000",
+    "name_ja": "バルノスα",
+    "name_zh": "酸翼龍α"
+  },
+  {
+    "id": 490,
+    "name": "Dodogama",
+    "model_path": "pl039_0000",
+    "name_ja": "ガマルα",
+    "name_zh": "岩賊龍α"
+  },
+  {
+    "id": 491,
+    "name": "Ingot",
+    "model_path": "pl031_0000",
+    "name_ja": "インゴット",
+    "name_zh": "鑄鐵"
+  },
+  {
+    "id": 492,
+    "name": "Rath Heart",
+    "model_path": "pl021_0100",
+    "name_ja": "リオハートα",
+    "name_zh": "火龍心α"
+  },
+  {
+    "id": 493,
+    "name": "Rath Heart",
+    "model_path": "pl021_0110",
+    "name_ja": "リオハートα",
+    "name_zh": "火龍心α"
+  },
+  {
+    "id": 494,
+    "name": "Lavasioth",
+    "model_path": "pl040_0000",
+    "name_ja": "ラヴァα",
+    "name_zh": "熔岩龍α"
+  },
+  {
+    "id": 495,
+    "name": "Lavasioth",
+    "model_path": "pl040_0010",
+    "name_ja": "ラヴァα",
+    "name_zh": "熔岩龍α"
+  },
+  {
+    "id": 496,
+    "name": "Legiana",
+    "model_path": "pl027_0000",
+    "name_ja": "ギエナ",
+    "name_zh": "風漂龍"
+  },
+  {
+    "id": 497,
+    "name": "Legiana",
+    "model_path": "pl027_0010",
+    "name_ja": "ギエナ",
+    "name_zh": "風漂龍"
+  },
+  {
+    "id": 498,
+    "name": "Odogaron",
+    "model_path": "pl029_0000",
+    "name_ja": "ガロン",
+    "name_zh": "慘爪龍"
+  },
+  {
+    "id": 499,
+    "name": "Odogaron",
+    "model_path": "pl029_0010",
+    "name_ja": "ガロン",
+    "name_zh": "慘爪龍"
+  },
+  {
+    "id": 500,
+    "name": "Rathalos",
+    "model_path": "pl033_0000",
+    "name_ja": "レウス",
+    "name_zh": "火龍"
+  },
+  {
+    "id": 501,
+    "name": "Rathalos",
+    "model_path": "pl033_0010",
+    "name_ja": "レウス",
+    "name_zh": "火龍"
+  },
+  {
+    "id": 502,
+    "name": "Rath Soul",
+    "model_path": "pl033_0100",
+    "name_ja": "リオソウルα",
+    "name_zh": "火龍魂α"
+  },
+  {
+    "id": 503,
+    "name": "Rath Soul",
+    "model_path": "pl033_0110",
+    "name_ja": "リオソウルα",
+    "name_zh": "火龍魂α"
+  },
+  {
+    "id": 504,
+    "name": "Diablos",
+    "model_path": "pl034_0000",
+    "name_ja": "ディアブロ",
+    "name_zh": "角龍"
+  },
+  {
+    "id": 505,
+    "name": "Diablos",
+    "model_path": "pl034_0010",
+    "name_ja": "ディアブロ",
+    "name_zh": "角龍"
+  },
+  {
+    "id": 506,
+    "name": "Diablos Nero",
+    "model_path": "pl034_0100",
+    "name_ja": "ディアネロα",
+    "name_zh": "暴君角龍α"
+  },
+  {
+    "id": 507,
+    "name": "Diablos Nero",
+    "model_path": "pl034_0110",
+    "name_ja": "ディアネロα",
+    "name_zh": "暴君角龍α"
+  },
+  {
+    "id": 508,
+    "name": "Uragaan",
+    "model_path": "pl041_0000",
+    "name_ja": "ガンキンα",
+    "name_zh": "爆鎚龍α"
+  },
+  {
+    "id": 509,
+    "name": "Uragaan",
+    "model_path": "pl041_0010",
+    "name_ja": "ガンキンα",
+    "name_zh": "爆鎚龍α"
+  },
+  {
+    "id": 510,
+    "name": "Bazelgeuse",
+    "model_path": "pl042_0000",
+    "name_ja": "バゼルα",
+    "name_zh": "爆鱗龍α"
+  },
+  {
+    "id": 511,
+    "name": "Bazelgeuse",
+    "model_path": "pl042_0010",
+    "name_ja": "バゼルα",
+    "name_zh": "爆鱗龍α"
+  },
+  {
+    "id": 512,
+    "name": "Deviljho",
+    "model_path": "pl050_0000",
+    "name_ja": "バンギスα",
+    "name_zh": "殘虐α"
+  },
+  {
+    "id": 513,
+    "name": "Deviljho",
+    "model_path": "pl050_0010",
+    "name_ja": "バンギスα",
+    "name_zh": "殘虐α"
+  },
+  {
+    "id": 514,
+    "name": "Dober",
+    "model_path": "pl044_0000",
+    "name_ja": "ドーベルα",
+    "name_zh": "杜賓α"
+  },
+  {
+    "id": 515,
+    "name": "Dober",
+    "model_path": "pl044_0000",
+    "name_ja": "ドーベルα",
+    "name_zh": "杜賓α"
+  },
+  {
+    "id": 516,
+    "name": "Damascus",
+    "model_path": "pl043_0000",
+    "name_ja": "ダマスクα",
+    "name_zh": "大馬士革α"
+  },
+  {
+    "id": 517,
+    "name": "Damascus",
+    "model_path": "pl043_0010",
+    "name_ja": "ダマスクα",
+    "name_zh": "大馬士革α"
+  },
+  {
+    "id": 518,
+    "name": "Zorah",
+    "model_path": "pl038_0000",
+    "name_ja": "ゾラマグナα",
+    "name_zh": "鑄島熔岩α"
+  },
+  {
+    "id": 519,
+    "name": "Zorah",
+    "model_path": "pl038_0010",
+    "name_ja": "ゾラマグナα",
+    "name_zh": "鑄島熔岩α"
+  },
+  {
+    "id": 520,
+    "name": "Zorah",
+    "model_path": "pl038_0020",
+    "name_ja": "ゾラマグナα",
+    "name_zh": "鑄島熔岩α"
+  },
+  {
+    "id": 521,
+    "name": "Nergigante",
+    "model_path": "pl030_0000",
+    "name_ja": "オーグα",
+    "name_zh": "戰紋α"
+  },
+  {
+    "id": 522,
+    "name": "Nergigante",
+    "model_path": "pl030_0010",
+    "name_ja": "オーグα",
+    "name_zh": "戰紋α"
+  },
+  {
+    "id": 523,
+    "name": "Nergigante",
+    "model_path": "pl030_0020",
+    "name_ja": "オーグα",
+    "name_zh": "戰紋α"
+  },
+  {
+    "id": 524,
+    "name": "Teostra",
+    "model_path": "pl046_0000",
+    "name_ja": "カイザーα",
+    "name_zh": "帝王α"
+  },
+  {
+    "id": 525,
+    "name": "Teostra",
+    "model_path": "pl046_0010",
+    "name_ja": "カイザーα",
+    "name_zh": "帝王α"
+  },
+  {
+    "id": 526,
+    "name": "Teostra",
+    "model_path": "pl046_0020",
+    "name_ja": "カイザーα",
+    "name_zh": "帝王α"
+  },
+  {
+    "id": 527,
+    "name": "Kushala",
+    "model_path": "pl047_0000",
+    "name_ja": "クシャナα",
+    "name_zh": "鋼龍α"
+  },
+  {
+    "id": 528,
+    "name": "Kushala",
+    "model_path": "pl047_0010",
+    "name_ja": "クシャナα",
+    "name_zh": "鋼龍α"
+  },
+  {
+    "id": 529,
+    "name": "Kushala",
+    "model_path": "pl047_0020",
+    "name_ja": "クシャナα",
+    "name_zh": "鋼龍α"
+  },
+  {
+    "id": 530,
+    "name": "Vaal Hazak",
+    "model_path": "pl032_0000",
+    "name_ja": "ウルズα",
+    "name_zh": "烏爾德α"
+  },
+  {
+    "id": 531,
+    "name": "Vaal Hazak",
+    "model_path": "pl032_0010",
+    "name_ja": "ウルズα",
+    "name_zh": "烏爾德α"
+  },
+  {
+    "id": 532,
+    "name": "Vaal Hazak",
+    "model_path": "pl032_0020",
+    "name_ja": "ウルズα",
+    "name_zh": "烏爾德α"
+  },
+  {
+    "id": 533,
+    "name": "Kirin",
+    "model_path": "pl035_0000",
+    "name_ja": "キリン",
+    "name_zh": "麒麟"
+  },
+  {
+    "id": 534,
+    "name": "Kirin",
+    "model_path": "pl035_0010",
+    "name_ja": "キリン",
+    "name_zh": "麒麟"
+  },
+  {
+    "id": 535,
+    "name": "Kirin",
+    "model_path": "pl035_0020",
+    "name_ja": "キリン",
+    "name_zh": "麒麟"
+  },
+  {
+    "id": 536,
+    "name": "Xeno",
+    "model_path": "pl045_0000",
+    "name_ja": "ゼノラージα",
+    "name_zh": "冥燈幽火α"
+  },
+  {
+    "id": 537,
+    "name": "Xeno",
+    "model_path": "pl045_0010",
+    "name_ja": "ゼノラージα",
+    "name_zh": "冥燈幽火α"
+  },
+  {
+    "id": 538,
+    "name": "Xeno",
+    "model_path": "pl045_0020",
+    "name_ja": "ゼノラージα",
+    "name_zh": "冥燈幽火α"
+  },
+  {
+    "id": 539,
+    "name": "Lunastra",
+    "model_path": "pl051_0000",
+    "name_ja": "エンプレスα",
+    "name_zh": "皇后α"
+  },
+  {
+    "id": 540,
+    "name": "Lunastra",
+    "model_path": "pl051_0010",
+    "name_ja": "エンプレスα",
+    "name_zh": "皇后α"
+  },
+  {
+    "id": 541,
+    "name": "Lunastra",
+    "model_path": "pl051_0020",
+    "name_ja": "エンプレスα",
+    "name_zh": "皇后α"
+  },
+  {
+    "id": 542,
+    "name": "Kulve",
+    "model_path": "pl049_0000",
+    "name_ja": "マムガイラα",
+    "name_zh": "絢輝龍鎧羅α"
+  },
+  {
+    "id": 543,
+    "name": "Kulve",
+    "model_path": "pl049_0010",
+    "name_ja": "マムガイラα",
+    "name_zh": "絢輝龍鎧羅α"
+  },
+  {
+    "id": 544,
+    "name": "Kulve",
+    "model_path": "pl049_0020",
+    "name_ja": "マムガイラα",
+    "name_zh": "絢輝龍鎧羅α"
+  },
+  {
+    "id": 545,
+    "name": "Guardian",
+    "model_path": "pl121_0000",
+    "name_ja": "ガーディアン",
+    "name_zh": "守護者"
+  },
+  {
+    "id": 546,
+    "name": "Vespoid+",
+    "model_path": "pl007_0001",
+    "name_ja": "EXランゴα",
+    "name_zh": "精英·巨蜂α"
+  },
+  {
+    "id": 547,
+    "name": "Hornetaur+",
+    "model_path": "pl017_0001",
+    "name_ja": "EXタロスα",
+    "name_zh": "精英·巨甲蟲α"
+  },
+  {
+    "id": 548,
+    "name": "Wulg+",
+    "model_path": "pl102_0000",
+    "name_ja": "EXウルグα",
+    "name_zh": "精英·冰豺龍α"
+  },
+  {
+    "id": 549,
+    "name": "Cortos+",
+    "model_path": "pl103_0000",
+    "name_ja": "EXコルトスα",
+    "name_zh": "精英·冬翼龍α"
+  },
+  {
+    "id": 550,
+    "name": "Jagras+",
+    "model_path": "pl008_0001",
+    "name_ja": "EXジャグラスα",
+    "name_zh": "精英·凶豺龍α"
+  },
+  {
+    "id": 551,
+    "name": "Tzitzi-Ya-Ku+",
+    "model_path": "pl023_0001",
+    "name_ja": "EXツィツィα",
+    "name_zh": "精英·眩鳥α"
+  },
+  {
+    "id": 552,
+    "name": "Great Girros+",
+    "model_path": "pl022_0001",
+    "name_ja": "EXギルオスα",
+    "name_zh": "精英·凶顎龍α"
+  },
+  {
+    "id": 553,
+    "name": "Dodogama+",
+    "model_path": "pl039_0001",
+    "name_ja": "EXガマルα",
+    "name_zh": "精英·岩賊龍α"
+  },
+  {
+    "id": 554,
+    "name": "Kulu-Ya-Ku+",
+    "model_path": "pl009_0001",
+    "name_ja": "EXクルルα",
+    "name_zh": "精英·搔鳥α"
+  },
+  {
+    "id": 555,
+    "name": "Pukei-Pukei+",
+    "model_path": "pl010_0001",
+    "name_ja": "EXプケプケα",
+    "name_zh": "精英·毒妖鳥α"
+  },
+  {
+    "id": 556,
+    "name": "Coral Pukei+",
+    "model_path": "pl010_0101",
+    "name_ja": "EXプケラグーナα",
+    "name_zh": "精英·妖水α"
+  },
+  {
+    "id": 557,
+    "name": "Barroth+",
+    "model_path": "pl012_0001",
+    "name_ja": "EXボロスα",
+    "name_zh": "精英·土砂龍α"
+  },
+  {
+    "id": 558,
+    "name": "Jyuratodus+",
+    "model_path": "pl011_0001",
+    "name_ja": "EXジュラα",
+    "name_zh": "精英·泥魚龍α"
+  },
+  {
+    "id": 559,
+    "name": "Beotodus+",
+    "model_path": "pl110_0000",
+    "name_ja": "EXブランα",
+    "name_zh": "精英·冰魚龍α"
+  },
+  {
+    "id": 560,
+    "name": "Tobi-Kadachi+",
+    "model_path": "pl013_0001",
+    "name_ja": "EXカガチα",
+    "name_zh": "精英·飛雷龍α"
+  },
+  {
+    "id": 561,
+    "name": "Viper Kadachi+",
+    "model_path": "pl013_0101",
+    "name_ja": "EXベニカガチα",
+    "name_zh": "精英·朱毒α"
+  },
+  {
+    "id": 562,
+    "name": "Banbaro+",
+    "model_path": "pl084_0000",
+    "name_ja": "EXバフバロα",
+    "name_zh": "精英·猛牛龍α"
+  },
+  {
+    "id": 563,
+    "name": "Banbaro+",
+    "model_path": "pl084_0010",
+    "name_ja": "EXバフバロα",
+    "name_zh": "精英·猛牛龍α"
+  },
+  {
+    "id": 564,
+    "name": "Anjanath+",
+    "model_path": "pl020_0001",
+    "name_ja": "EXジャナフα",
+    "name_zh": "精英·蠻顎龍α"
+  },
+  {
+    "id": 565,
+    "name": "Anjanath+",
+    "model_path": "pl020_0011",
+    "name_ja": "EXジャナフα",
+    "name_zh": "精英·蠻顎龍α"
+  },
+  {
+    "id": 566,
+    "name": "Fulgur Anja+",
+    "model_path": "pl020_0101",
+    "name_ja": "EXジャナールα",
+    "name_zh": "精英·雷顎α"
+  },
+  {
+    "id": 567,
+    "name": "Fulgur Anja+",
+    "model_path": "pl020_0111",
+    "name_ja": "EXジャナールα",
+    "name_zh": "精英·雷顎α"
+  },
+  {
+    "id": 568,
+    "name": "Rathian+",
+    "model_path": "pl021_0001",
+    "name_ja": "EXレイアα",
+    "name_zh": "精英·雌火龍α"
+  },
+  {
+    "id": 569,
+    "name": "Rathian+",
+    "model_path": "pl021_0011",
+    "name_ja": "EXレイアα",
+    "name_zh": "精英·雌火龍α"
+  },
+  {
+    "id": 570,
+    "name": "Rath Heart+",
+    "model_path": "pl021_0101",
+    "name_ja": "EXリオハートα",
+    "name_zh": "精英·火龍心α"
+  },
+  {
+    "id": 571,
+    "name": "Rath Heart+",
+    "model_path": "pl021_0111",
+    "name_ja": "EXリオハートα",
+    "name_zh": "精英·火龍心α"
+  },
+  {
+    "id": 572,
+    "name": "Paolumu+",
+    "model_path": "pl024_0001",
+    "name_ja": "EXウルムーα",
+    "name_zh": "精英·浮空龍α"
+  },
+  {
+    "id": 573,
+    "name": "Lumu Phantasm+",
+    "model_path": "pl024_0101",
+    "name_ja": "EXウルムメアα",
+    "name_zh": "精英·浮夢α"
+  },
+  {
+    "id": 574,
+    "name": "Radobaan+",
+    "model_path": "pl028_0001",
+    "name_ja": "EXバルキンα",
+    "name_zh": "精英·骨鎚龍α"
+  },
+  {
+    "id": 575,
+    "name": "Artian",
+    "model_path": "pl091_0000",
+    "name_ja": "EXアーティアα",
+    "name_zh": "精英·機械α"
+  },
+  {
+    "id": 576,
+    "name": "Barioth+",
+    "model_path": "pl089_0000",
+    "name_ja": "EXベリオα",
+    "name_zh": "精英·冰牙龍α"
+  },
+  {
+    "id": 577,
+    "name": "Barioth+",
+    "model_path": "pl089_0010",
+    "name_ja": "EXベリオα",
+    "name_zh": "精英·冰牙龍α"
+  },
+  {
+    "id": 578,
+    "name": "Rathalos+",
+    "model_path": "pl033_0001",
+    "name_ja": "EXレウスα",
+    "name_zh": "精英·火龍α"
+  },
+  {
+    "id": 579,
+    "name": "Rathalos+",
+    "model_path": "pl033_0011",
+    "name_ja": "EXレウスα",
+    "name_zh": "精英·火龍α"
+  },
+  {
+    "id": 580,
+    "name": "Rath Soul+",
+    "model_path": "pl033_0101",
+    "name_ja": "EXリオソウルα",
+    "name_zh": "精英·火龍魂α"
+  },
+  {
+    "id": 581,
+    "name": "Rath Soul+",
+    "model_path": "pl033_0111",
+    "name_ja": "EXリオソウルα",
+    "name_zh": "精英·火龍魂α"
+  },
+  {
+    "id": 582,
+    "name": "Diablos+",
+    "model_path": "pl034_0001",
+    "name_ja": "EXディアブロα",
+    "name_zh": "精英·角龍α"
+  },
+  {
+    "id": 583,
+    "name": "Diablos+",
+    "model_path": "pl034_0011",
+    "name_ja": "EXディアブロα",
+    "name_zh": "精英·角龍α"
+  },
+  {
+    "id": 584,
+    "name": "Diablos Nero+",
+    "model_path": "pl034_0101",
+    "name_ja": "EXディアネロα",
+    "name_zh": "精英·暴君角龍α"
+  },
+  {
+    "id": 585,
+    "name": "Diablos Nero+",
+    "model_path": "pl034_0111",
+    "name_ja": "EXディアネロα",
+    "name_zh": "精英·暴君角龍α"
+  },
+  {
+    "id": 586,
+    "name": "Legiana+",
+    "model_path": "pl027_0001",
+    "name_ja": "EXギエナα",
+    "name_zh": "精英·風漂龍α"
+  },
+  {
+    "id": 587,
+    "name": "Legiana+",
+    "model_path": "pl027_0011",
+    "name_ja": "EXギエナα",
+    "name_zh": "精英·風漂龍α"
+  },
+  {
+    "id": 588,
+    "name": "Shrieking Legia+",
+    "model_path": "pl027_0500",
+    "name_ja": "EXブリーナα",
+    "name_zh": "精英·霜漂α"
+  },
+  {
+    "id": 589,
+    "name": "Shrieking Legia+",
+    "model_path": "pl027_0510",
+    "name_ja": "EXブリーナα",
+    "name_zh": "精英·霜漂α"
+  },
+  {
+    "id": 590,
+    "name": "Odogaron+",
+    "model_path": "pl029_0001",
+    "name_ja": "EXガロンα",
+    "name_zh": "精英·慘爪α"
+  },
+  {
+    "id": 591,
+    "name": "Odogaron+",
+    "model_path": "pl029_0011",
+    "name_ja": "EXガロンα",
+    "name_zh": "精英·慘爪α"
+  },
+  {
+    "id": 592,
+    "name": "Death Garon+",
+    "model_path": "pl029_0101",
+    "name_ja": "EXデスガロンα",
+    "name_zh": "精英·亡爪α"
+  },
+  {
+    "id": 593,
+    "name": "Death Garon+",
+    "model_path": "pl029_0111",
+    "name_ja": "EXデスガロンα",
+    "name_zh": "精英·亡爪α"
+  },
+  {
+    "id": 594,
+    "name": "Lavasioth+",
+    "model_path": "pl040_0001",
+    "name_ja": "EXラヴァα",
+    "name_zh": "精英·熔岩龍α"
+  },
+  {
+    "id": 595,
+    "name": "Uragaan+",
+    "model_path": "pl041_0001",
+    "name_ja": "EXガンキンα",
+    "name_zh": "精英·爆鎚龍α"
+  },
+  {
+    "id": 596,
+    "name": "Nargacuga+",
+    "model_path": "pl080_0000",
+    "name_ja": "EXナルガα",
+    "name_zh": "精英·迅龍α"
+  },
+  {
+    "id": 597,
+    "name": "Nargacuga+",
+    "model_path": "pl080_0010",
+    "name_ja": "EXナルガα",
+    "name_zh": "精英·迅龍α"
+  },
+  {
+    "id": 598,
+    "name": "Glavenus+",
+    "model_path": "pl081_0000",
+    "name_ja": "EXディノα",
+    "name_zh": "精英·斬龍α"
+  },
+  {
+    "id": 599,
+    "name": "Glavenus+",
+    "model_path": "pl081_0010",
+    "name_ja": "EXディノα",
+    "name_zh": "精英·斬龍α"
+  },
+  {
+    "id": 600,
+    "name": "Acidic Glavenus+",
+    "model_path": "pl081_0100",
+    "name_ja": "EXディノイエロα",
+    "name_zh": "精英·斬黃α"
+  },
+  {
+    "id": 601,
+    "name": "Acidic Glavenus+",
+    "model_path": "pl081_0110",
+    "name_ja": "EXディノイエロα",
+    "name_zh": "精英·斬黃α"
+  },
+  {
+    "id": 602,
+    "name": "Brachydios+",
+    "model_path": "pl082_0000",
+    "name_ja": "EXブラキα",
+    "name_zh": "精英·碎龍α"
+  },
+  {
+    "id": 603,
+    "name": "Brachydios+",
+    "model_path": "pl082_0010",
+    "name_ja": "EXブラキα",
+    "name_zh": "精英·碎龍α"
+  },
+  {
+    "id": 604,
+    "name": "Tigrex+",
+    "model_path": "pl083_0000",
+    "name_ja": "EXレックスα",
+    "name_zh": "精英·轟龍α"
+  },
+  {
+    "id": 605,
+    "name": "Tigrex+",
+    "model_path": "pl083_0010",
+    "name_ja": "EXレックスα",
+    "name_zh": "精英·轟龍α"
+  },
+  {
+    "id": 606,
+    "name": "Brute Tigrex+",
+    "model_path": "pl083_0100",
+    "name_ja": "EXレックスロアα",
+    "name_zh": "精英·轟吼α"
+  },
+  {
+    "id": 607,
+    "name": "Brute Tigrex+",
+    "model_path": "pl083_0110",
+    "name_ja": "EXレックスロアα",
+    "name_zh": "精英·轟吼α"
+  },
+  {
+    "id": 608,
+    "name": "Black Belt",
+    "model_path": "pl093_0000",
+    "name_ja": "EXクロオビα",
+    "name_zh": "精英·黑帶α"
+  },
+  {
+    "id": 609,
+    "name": "Seething Bazel+",
+    "model_path": "pl042_0500",
+    "name_ja": "EXプライドα",
+    "name_zh": "精英·矜持α"
+  },
+  {
+    "id": 610,
+    "name": "Seething Bazel+",
+    "model_path": "pl042_0510",
+    "name_ja": "EXプライドα",
+    "name_zh": "精英·矜持α"
+  },
+  {
+    "id": 611,
+    "name": "Savage Jho+",
+    "model_path": "pl050_0500",
+    "name_ja": "EXグリードα",
+    "name_zh": "精英·貪欲α"
+  },
+  {
+    "id": 612,
+    "name": "Savage Jho+",
+    "model_path": "pl050_0510",
+    "name_ja": "EXグリードα",
+    "name_zh": "精英·貪欲α"
+  },
+  {
+    "id": 613,
+    "name": "Velkhana+",
+    "model_path": "pl085_0000",
+    "name_ja": "EXラヴィーナα",
+    "name_zh": "精英·雪崩α"
+  },
+  {
+    "id": 614,
+    "name": "Velkhana+",
+    "model_path": "pl085_0010",
+    "name_ja": "EXラヴィーナα",
+    "name_zh": "精英·雪崩α"
+  },
+  {
+    "id": 615,
+    "name": "Blackveil Hazak+",
+    "model_path": "pl032_0500",
+    "name_ja": "EXヴァルファーα",
+    "name_zh": "精英·死滅α"
+  },
+  {
+    "id": 616,
+    "name": "Blackveil Hazak+",
+    "model_path": "pl032_0510",
+    "name_ja": "EXヴァルファーα",
+    "name_zh": "精英·死滅α"
+  },
+  {
+    "id": 617,
+    "name": "Teostra+",
+    "model_path": "pl046_0001",
+    "name_ja": "EXカイザーα",
+    "name_zh": "精英·帝王α"
+  },
+  {
+    "id": 618,
+    "name": "Teostra+",
+    "model_path": "pl046_0011",
+    "name_ja": "EXカイザーα",
+    "name_zh": "精英·帝王α"
+  },
+  {
+    "id": 619,
+    "name": "Kushala+",
+    "model_path": "pl047_0001",
+    "name_ja": "EXクシャナα",
+    "name_zh": "精英·鋼龍α"
+  },
+  {
+    "id": 620,
+    "name": "Kushala+",
+    "model_path": "pl047_0011",
+    "name_ja": "EXクシャナα",
+    "name_zh": "精英·鋼龍α"
+  },
+  {
+    "id": 621,
+    "name": "Kirin+",
+    "model_path": "pl035_0001",
+    "name_ja": "EXキリンα",
+    "name_zh": "精英·麒麟α"
+  },
+  {
+    "id": 622,
+    "name": "Kirin+",
+    "model_path": "pl035_0011",
+    "name_ja": "EXキリンα",
+    "name_zh": "精英·麒麟α"
+  },
+  {
+    "id": 623,
+    "name": "Namielle+",
+    "model_path": "pl086_0000",
+    "name_ja": "EXテンタクルα",
+    "name_zh": "精英·觸角α"
+  },
+  {
+    "id": 624,
+    "name": "Namielle+",
+    "model_path": "pl086_0010",
+    "name_ja": "EXテンタクルα",
+    "name_zh": "精英·觸角α"
+  },
+  {
+    "id": 625,
+    "name": "Guild Palace+",
+    "model_path": "pl094_0000",
+    "name_ja": "EXギルドパレスα",
+    "name_zh": "精英·公會宮殿α"
+  },
+  {
+    "id": 626,
+    "name": "Acrobat",
+    "model_path": "pl095_0000",
+    "name_ja": "アクロバット",
+    "name_zh": "雜技師"
+  },
+  {
+    "id": 627,
+    "name": "Showman",
+    "model_path": "pl095_0010",
+    "name_ja": "ショーマン",
+    "name_zh": "表演家"
+  },
+  {
+    "id": 628,
+    "name": "Shara Ishvalda+",
+    "model_path": "pl088_0000",
+    "name_ja": "EXアンガルダα",
+    "name_zh": "精英·迦樓羅α"
+  },
+  {
+    "id": 629,
+    "name": "Shara Ishvalda+",
+    "model_path": "pl088_0010",
+    "name_ja": "EXアンガルダα",
+    "name_zh": "精英·迦樓羅α"
+  },
+  {
+    "id": 630,
+    "name": "Yian Garuga+",
+    "model_path": "pl108_0000",
+    "name_ja": "EXガルルガα",
+    "name_zh": "精英·黑狼鳥α"
+  },
+  {
+    "id": 631,
+    "name": "Yian Garuga+",
+    "model_path": "pl108_0010",
+    "name_ja": "EXガルルガα",
+    "name_zh": "精英·黑狼鳥α"
+  },
+  {
+    "id": 632,
+    "name": "Zinogre+",
+    "model_path": "pl107_0000",
+    "name_ja": "EXジンオウα",
+    "name_zh": "精英·雷狼龍α"
+  },
+  {
+    "id": 633,
+    "name": "Zinogre+",
+    "model_path": "pl107_0010",
+    "name_ja": "EXジンオウα",
+    "name_zh": "精英·雷狼龍α"
+  },
+  {
+    "id": 634,
+    "name": "Golden Lune+",
+    "model_path": "pl021_0200",
+    "name_ja": "EXゴールドルナα",
+    "name_zh": "精英·金黃澄月α"
+  },
+  {
+    "id": 635,
+    "name": "Golden Lune+",
+    "model_path": "pl021_0210",
+    "name_ja": "EXゴールドルナα",
+    "name_zh": "精英·金黃澄月α"
+  },
+  {
+    "id": 636,
+    "name": "Silver Sol+",
+    "model_path": "pl033_0200",
+    "name_ja": "EXシルバーソルα",
+    "name_zh": "精英·銀白耀日α"
+  },
+  {
+    "id": 637,
+    "name": "Silver Sol+",
+    "model_path": "pl033_0210",
+    "name_ja": "EXシルバーソルα",
+    "name_zh": "精英·銀白耀日α"
+  },
+  {
+    "id": 638,
+    "name": "Lunastra+",
+    "model_path": "pl051_0001",
+    "name_ja": "EXエンプレスα",
+    "name_zh": "精英·皇后α"
+  },
+  {
+    "id": 639,
+    "name": "Lunastra+",
+    "model_path": "pl051_0011",
+    "name_ja": "EXエンプレスα",
+    "name_zh": "精英·皇后α"
+  },
+  {
+    "id": 640,
+    "name": "Ruiner Nergi+",
+    "model_path": "pl030_0500",
+    "name_ja": "EXゾークα",
+    "name_zh": "精英·狂紋α"
+  },
+  {
+    "id": 641,
+    "name": "Ruiner Nergi+",
+    "model_path": "pl030_0510",
+    "name_ja": "EXゾークα",
+    "name_zh": "精英·狂紋α"
+  },
+  {
+    "id": 642,
+    "name": "Guildwork+",
+    "model_path": "pl092_0000",
+    "name_ja": "EXギルドワークα",
+    "name_zh": "精英·公會成果α"
+  },
+  {
+    "id": 643,
+    "name": "Rajang+",
+    "model_path": "pl109_0000",
+    "name_ja": "EX金色α",
+    "name_zh": "精英·金色α"
+  },
+  {
+    "id": 644,
+    "name": "Rajang+",
+    "model_path": "pl109_0010",
+    "name_ja": "EX金色α",
+    "name_zh": "精英·金色α"
+  },
+  {
+    "id": 645,
+    "name": "Stygian Zin+",
+    "model_path": "pl107_0100",
+    "name_ja": "EXゴクオウα",
+    "name_zh": "精英·獄狼龍α"
+  },
+  {
+    "id": 646,
+    "name": "Stygian Zin+",
+    "model_path": "pl107_0110",
+    "name_ja": "EXゴクオウα",
+    "name_zh": "精英·獄狼龍α"
+  },
+  {
+    "id": 647,
+    "name": "Safi'jiiva+",
+    "model_path": "pl087_0000",
+    "name_ja": "EX龍紋α",
+    "name_zh": "精英‧龍紋α"
+  },
+  {
+    "id": 648,
+    "name": "Safi'jiiva+",
+    "model_path": "pl087_0010",
+    "name_ja": "EX龍紋α",
+    "name_zh": "精英‧龍紋α"
+  },
+  {
+    "id": 649,
+    "name": "Furious Rajang+",
+    "model_path": "pl109_0500",
+    "name_ja": "EX斉天α",
+    "name_zh": "精英·齊天α"
+  },
+  {
+    "id": 650,
+    "name": "Furious Rajang+",
+    "model_path": "pl109_0510",
+    "name_ja": "EX斉天α",
+    "name_zh": "精英·齊天α"
+  },
+  {
+    "id": 651,
+    "name": "Raging Brachy+",
+    "model_path": "pl082_0500",
+    "name_ja": "EXブラキウムα",
+    "name_zh": "精英·鐵腕α"
+  },
+  {
+    "id": 652,
+    "name": "Raging Brachy+",
+    "model_path": "pl082_0510",
+    "name_ja": "EXブラキウムα",
+    "name_zh": "精英·鐵腕α"
+  },
+  {
+    "id": 653,
+    "name": "Frostfang Barioth+",
+    "model_path": "pl089_0500",
+    "name_ja": "EXオルムングα",
+    "name_zh": "精英·霜刃冰牙龍α"
+  },
+  {
+    "id": 654,
+    "name": "Frostfang Barioth+",
+    "model_path": "pl089_0510",
+    "name_ja": "EXオルムングα",
+    "name_zh": "精英·霜刃冰牙龍α"
+  },
+  {
+    "id": 655,
+    "name": "Alatreon+",
+    "model_path": "pl052_0000",
+    "name_ja": "EXエスカドラα",
+    "name_zh": "精英·煌黑龍α"
+  },
+  {
+    "id": 656,
+    "name": "Alatreon+",
+    "model_path": "pl052_0010",
+    "name_ja": "EXエスカドラα",
+    "name_zh": "精英·煌黑龍α"
+  },
+  {
+    "id": 657,
+    "name": "Fatalis+",
+    "model_path": "pl129_0000",
+    "name_ja": "ミラボレアス＋",
+    "name_zh": "黑龍＋"
+  },
+  {
+    "id": 658,
+    "name": "Fatalis+",
+    "model_path": "pl129_0010",
+    "name_ja": "ミラボレアス＋",
+    "name_zh": "黑龍＋"
+  },
+  {
+    "id": 659,
+    "name": "Kulve Taroth+",
+    "model_path": "pl049_0001",
+    "name_ja": "EXマムガイラα",
+    "name_zh": "精英·絢輝龍鎧羅α"
+  },
+  {
+    "id": 660,
+    "name": "Kulve Taroth+",
+    "model_path": "pl049_0011",
+    "name_ja": "EXマムガイラα",
+    "name_zh": "精英·絢輝龍鎧羅α"
+  },
+  {
+    "id": 661,
+    "name": "Sealed Dragon Cloth",
+    "model_path": "pl100_0000",
+    "name_ja": "EX封印の龍骸布α",
+    "name_zh": "精英‧封印的龍骸布α"
+  },
+  {
+    "id": 662,
+    "name": "Wyverian Ears",
+    "model_path": "pl101_0000",
+    "name_ja": "EX竜人族の耳α",
+    "name_zh": "精英‧龍人族之耳α"
+  },
+  {
+    "id": 663,
+    "name": "Duffel Penguin+",
+    "model_path": "pl098_0000",
+    "name_ja": "キブクレペンギン＋",
+    "name_zh": "圓圓企鵝＋"
+  },
+  {
+    "id": 664,
+    "name": "Pearlspring+",
+    "model_path": "pl113_0000",
+    "name_ja": "EXギンセンザルα",
+    "name_zh": "精英·溫泉銀猴α"
+  },
+  {
+    "id": 665,
+    "name": "Buff Body+",
+    "model_path": "pl115_0000",
+    "name_ja": "マッチョ＋",
+    "name_zh": "健美＋"
+  },
+  {
+    "id": 666,
+    "name": "Azure Age",
+    "model_path": "pl072_0001",
+    "name_ja": "蒼星ノ将α",
+    "name_zh": "蒼星之將α"
+  },
+  {
+    "id": 667,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 668,
+    "name": "HARDUMMY",
+    "model_path": "pl068_0020",
+    "name_ja": "ダミー",
+    "name_zh": "占位裝備"
+  },
+  {
+    "id": 669,
+    "name": "Velkhana+",
+    "model_path": "pl085_0020",
+    "name_ja": "EXラヴィーナα",
+    "name_zh": "精英·雪崩α"
+  },
+  {
+    "id": 670,
+    "name": "Namielle+",
+    "model_path": "pl086_0020",
+    "name_ja": "EXテンタクルα",
+    "name_zh": "精英·觸角α"
+  },
+  {
+    "id": 671,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 672,
+    "name": "Buff Body+",
+    "model_path": "pl115_0001",
+    "name_ja": "マッチョ＋",
+    "name_zh": "健美＋"
+  },
+  {
+    "id": 673,
+    "name": "Innerwear",
+    "model_path": "pl500_0000",
+    "name_ja": "インナー",
+    "name_zh": "內衣"
+  },
+  {
+    "id": 674,
+    "name": "Clockwork+",
+    "model_path": "pl104_0000",
+    "name_ja": "EXアークロックα",
+    "name_zh": "精英·蒸汽貴族α"
+  },
+  {
+    "id": 675,
+    "name": "Innerwear",
+    "model_path": "pl501_0000",
+    "name_ja": "インナー",
+    "name_zh": "內衣"
+  },
+  {
+    "id": 676,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 677,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 678,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 679,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 680,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 681,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 682,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 683,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 684,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 685,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 686,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 687,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 688,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 689,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 690,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 691,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 692,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 693,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 694,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 695,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 696,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 697,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 698,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 699,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 700,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 701,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 702,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 703,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 704,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 705,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 706,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 707,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 708,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 709,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 710,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 711,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 712,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 713,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 714,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 715,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 716,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 717,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 718,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 719,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 720,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 721,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 722,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 723,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 724,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 725,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 726,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 727,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 728,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 729,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 730,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 731,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 732,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 733,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 734,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 735,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 736,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 737,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 738,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 739,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 740,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 741,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 742,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 743,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 744,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 745,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 746,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 747,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 748,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 749,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 750,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  },
+  {
+    "id": 751,
+    "name": "Unavailable",
+    "model_path": null,
+    "name_ja": "利用不可",
+    "name_zh": "無法使用"
+  }
+]

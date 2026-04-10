@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MHW Mod 管理器</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="lang-bar" role="group" aria-labelledby="lang-group-label">
+      <span class="lang-label" id="lang-group-label" data-i18n="uiLang">界面语言</span>
+      <div class="lang-seg" id="lang-seg">
+        <button type="button" class="lang-btn" data-lang="zh-Hans" aria-pressed="false">简体中文</button>
+        <button type="button" class="lang-btn" data-lang="zh-Hant" aria-pressed="false">繁體中文</button>
+        <button type="button" class="lang-btn" data-lang="ja" aria-pressed="false">日本語</button>
+        <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">English</button>
+      </div>
+    </div>
+    <h1 id="main-heading">MHW f_equip Mod 管理器</h1>
+    <p class="sub" id="main-sub"></p>
+    <p class="hint lang-note" id="lang-note"></p>
+  </header>
+
+  <section class="panel" id="game-panel">
+    <h2 data-i18n="gameDir">游戏目录</h2>
+    <div class="row">
+      <input type="text" id="game-path" readonly placeholder="" />
+      <button type="button" id="btn-browse" class="secondary" data-i18n="manualPath">手动设置</button>
+    </div>
+    <div class="flags" id="layout-flags"></div>
+  </section>
+
+  <nav class="tabs">
+    <button type="button" class="tab active" data-tab="armor" data-i18n="tabArmor">装备列表</button>
+    <button type="button" class="tab" data-tab="mods" data-i18n="tabMods">Mod 列表</button>
+  </nav>
+
+  <section class="panel tab-panel" id="tab-armor">
+    <div class="toolbar toolbar-wrap">
+      <div class="seg" id="armor-filter-seg" role="group" aria-label="">
+        <button type="button" class="seg-btn active" data-armor-filter="all" data-i18n="filterAll">全部</button>
+        <button type="button" class="seg-btn" data-armor-filter="missing" data-i18n="filterMissing">无 Mod</button>
+        <button type="button" class="seg-btn" data-armor-filter="covered" data-i18n="filterCovered">已有 Mod</button>
+      </div>
+      <input type="search" id="filter-armor" data-i18n-placeholder="filterPlaceholder" placeholder="" />
+      <span class="hint" id="count-armor"></span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th data-i18n="thId">ID</th>
+            <th data-i18n="thName">装备名</th>
+            <th data-i18n="thModel">Model</th>
+            <th data-i18n="thSlots">部位覆盖</th>
+            <th data-i18n="thMods">所在 Mod</th>
+            <th data-i18n="thAction">操作</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-armor"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel tab-panel hidden" id="tab-mods">
+    <p class="hint" id="mod-list-hint" data-i18n-html="modListHint"></p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th data-i18n="thModFolder">Mod 文件夹</th>
+            <th data-i18n="thModelsDetected">检测到的 model</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-mods"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <dialog id="dlg-apply" class="modal modal-wide">
+    <form method="dialog" id="form-apply">
+      <h3 data-i18n="dlgTitle">套用皮肤到当前装备</h3>
+      <p class="target-line" id="apply-target-line"></p>
+      <div id="apply-drop-zone" class="drop-zone" tabindex="0">
+        <span class="drop-zone-text" data-i18n="dlgDropHint">拖拽 .zip / .7z / .rar（自动识别 plXXX_YYYY 目录）</span>
+      </div>
+      <div id="apply-installed-block">
+        <label data-i18n="dlgSourceMod">源 Mod 文件夹</label>
+        <select id="apply-source-mod"></select>
+        <label data-i18n="dlgSourceModel">源 model</label>
+        <select id="apply-source-model"></select>
+      </div>
+      <div id="apply-archive-block" class="hidden">
+        <label data-i18n="dlgArchiveSourcePl">压缩包内的源 model（mod_hepsy 下）</label>
+        <select id="apply-archive-pl"></select>
+        <button type="button" class="secondary small" id="apply-clear-archive" data-i18n="dlgClearArchive">改用已安装的 Mod</button>
+      </div>
+      <p class="output-line" id="apply-output-line"></p>
+      <label class="checkbox-row">
+        <input type="checkbox" id="apply-backup" />
+        <span data-i18n="dlgBackup">覆盖前备份到 f_equip/backup</span>
+      </label>
+      <p class="warn" data-i18n="dlgWarn">会写入或覆盖同名文件。</p>
+      <div class="modal-actions">
+        <button type="submit" class="primary" data-i18n="dlgSubmit">复制并改名</button>
+        <button type="button" class="secondary" id="apply-cancel" data-i18n="dlgCancel">取消</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+  <script src="/static/i18n.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
