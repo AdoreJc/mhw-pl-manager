@@ -22,9 +22,9 @@ jobs:
           - target: x86
             python_arch: x86
             asset_suffix: win-x86
-          - target: arm32
+          - target: arm64
             python_arch: x64
-            asset_suffix: win-arm32
+            asset_suffix: win-arm64
             note_only: true
     continue-on-error: ${{ matrix.note_only == true }}
 
@@ -60,15 +60,38 @@ jobs:
             --clean `
             --onefile `
             --name "mhw-pl-manager" `
+            --hidden-import "mhw_pl_manager" `
+            --hidden-import "mhw_pl_manager.main" `
             --add-data "static;static" `
             --add-data "data;data" `
             "mhw_pl_manager/__main__.py"
           $exeName = "mhw-pl-manager-$version-${{ matrix.asset_suffix }}.exe"
           $zipName = "mhw-pl-manager-$version-${{ matrix.asset_suffix }}.zip"
           Move-Item -Force "dist/mhw-pl-manager.exe" "dist/$exeName"
+          $proc = Start-Process -FilePath "dist/$exeName" -PassThru
+          try {
+            $ok = $false
+            for ($i = 0; $i -lt 30; $i++) {
+              Start-Sleep -Seconds 1
+              try {
+                $resp = Invoke-WebRequest -Uri "http://127.0.0.1:8765/api/health" -UseBasicParsing -TimeoutSec 2
+                if ($resp.StatusCode -eq 200) {
+                  $ok = $true
+                  break
+                }
+              } catch {}
+            }
+            if (-not $ok) {
+              throw "Smoke test failed: /api/health not reachable from packaged exe."
+            }
+          } finally {
+            if ($null -ne $proc -and -not $proc.HasExited) {
+              Stop-Process -Id $proc.Id -Force
+            }
+          }
           Compress-Archive -Path "dist/$exeName" -DestinationPath "dist/$zipName" -Force
 
-      - name: Create arm32 note asset
+      - name: Create arm64 note asset
         if: ${{ matrix.note_only == true }}
         shell: pwsh
         run: |
@@ -84,10 +107,10 @@ jobs:
             "- win-amd64 (x64)",
             "- win-x86 (32-bit)",
             "",
-            "About win-arm32:",
-            "GitHub-hosted Windows runners do not provide a Windows ARM32 toolchain/runtime.",
-            "To produce a real ARM32 Windows executable, use a self-hosted Windows-on-ARM32 runner",
-            "and adjust this workflow to run on it, or build locally on an ARM32 Windows machine."
+            "About win-arm64:",
+            "GitHub-hosted Windows runners do not provide a Windows ARM64 toolchain/runtime.",
+            "To produce a real ARM64 Windows executable, use a self-hosted Windows-on-ARM64 runner",
+            "and adjust this workflow to run on it, or build locally on an ARM64 Windows machine."
           ) -join "`n"
           Set-Content -Encoding UTF8 -Path "dist/mhw-pl-manager-$version-${{ matrix.asset_suffix }}.txt" -Value $note
 
@@ -98,7 +121,7 @@ jobs:
           files: |
             dist/mhw-pl-manager-*-${{ matrix.asset_suffix }}.zip
 
-      - name: Upload arm32 note to Release
+      - name: Upload arm64 note to Release
         if: ${{ matrix.note_only == true }}
         uses: softprops/action-gh-release@v2
         with:
