@@ -56,6 +56,11 @@ class ArchiveModHepApplyBody(BaseModel):
     source_prefix: str = Field(..., description="Archive-relative path ending with source pl dir")
 
 
+class RemoveModBody(BaseModel):
+    target_model: str = Field(..., description="Target equipment model e.g. pl033_0000")
+    backup_before_remove: bool = Field(False, description="Backup target folder before delete")
+
+
 def _game_or_404():
     root = get_effective_game_root()
     if not root:
@@ -331,6 +336,38 @@ def archive_mod_hepsy_apply(body: ArchiveModHepApplyBody):
     }
     if backup_path is not None:
         out["backup_path"] = backup_path
+    return out
+
+
+@app.post("/api/remove-mod")
+def remove_mod(body: RemoveModBody):
+    root = _game_or_404()
+    f_eq = pl_f_equip(root)
+    if not f_eq.is_dir():
+        raise HTTPException(status_code=400, detail="未找到 nativePC/pl/f_equip")
+    try:
+        fe.parse_pl_model(body.target_model)
+        target_name = fe.mod_folder_name_for_model(body.target_model)
+    except ValueError as err:
+        raise HTTPException(status_code=400, detail=str(err)) from err
+
+    tgt = f_eq / target_name
+    if not tgt.is_dir():
+        raise HTTPException(status_code=400, detail="目标目录不存在，无需移除")
+
+    backup_path = None
+    if body.backup_before_remove:
+        backup_root = f_eq / fe.BACKUP_SUBDIR
+        backup_path = fe.backup_mod_folder(tgt, backup_root)
+
+    try:
+        shutil.rmtree(tgt)
+    except OSError as err:
+        raise HTTPException(status_code=400, detail=f"移除失败: {err}") from err
+
+    out: dict = {"ok": True, "removed_folder": target_name}
+    if backup_path is not None:
+        out["backup_path"] = str(backup_path)
     return out
 
 

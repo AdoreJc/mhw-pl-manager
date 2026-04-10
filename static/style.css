@@ -293,6 +293,18 @@ button.primary {
   color: #fff;
 }
 
+button.danger {
+  background: var(--danger);
+  border-color: #ff8a8a33;
+  color: #fff;
+}
+
+button.danger.secondary {
+  background: transparent;
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
 button.secondary {
   background: transparent;
   color: var(--text);

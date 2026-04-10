@@ -109,6 +109,19 @@
     </form>
   </dialog>
 
+  <dialog id="dlg-remove" class="modal">
+    <form method="dialog" id="form-remove">
+      <h3 data-i18n="dlgRemoveTitle">移除该装备 Mod</h3>
+      <p class="target-line" id="remove-target-line"></p>
+      <p class="warn" data-i18n="dlgRemoveWarn">将删除该装备对应的 f_equip/plXXX_YYYY 目录。</p>
+      <div class="modal-actions">
+        <button type="button" class="danger" id="btn-remove-backup" data-i18n="dlgRemoveBackup">备份并移除</button>
+        <button type="button" class="danger secondary" id="btn-remove-nobackup" data-i18n="dlgRemoveNoBackup">不备份并移除</button>
+        <button type="submit" class="secondary" data-i18n="dlgCancel">取消</button>
+      </div>
+    </form>
+  </dialog>
+
   <div id="toast" class="toast hidden" role="status"></div>
   <script src="/static/i18n.js"></script>
   <script src="/static/app.js"></script>

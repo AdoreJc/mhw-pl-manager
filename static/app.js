@@ -89,13 +89,23 @@ function renderArmor() {
       <td><code>${escapeHtml(r.model_path)}</code></td>
       <td class="slots">${slotLabels(r.slots)}</td>
       <td>${escapeHtml(r.mods && r.mods.length ? r.mods.join(", ") : "—")}</td>
-      <td><button type="button" class="small primary btn-apply" data-id="${r.id}">${escapeHtml(t("btnApply"))}</button></td>
+      <td>
+        <button type="button" class="small primary btn-apply" data-id="${r.id}">${escapeHtml(t("btnApply"))}</button>
+        ${
+          r.has_mod
+            ? ` <button type="button" class="small danger btn-remove" data-id="${r.id}">${escapeHtml(t("btnRemove"))}</button>`
+            : ""
+        }
+      </td>
     </tr>`
     )
     .join("");
 
   document.querySelectorAll(".btn-apply").forEach((btn) => {
     btn.addEventListener("click", () => openApply(Number(btn.dataset.id)));
+  });
+  document.querySelectorAll(".btn-remove").forEach((btn) => {
+    btn.addEventListener("click", () => openRemove(Number(btn.dataset.id)));
   });
 }
 
@@ -180,6 +190,14 @@ function openApply(armorId) {
   }
 
   $("dlg-apply").showModal();
+}
+
+function openRemove(armorId) {
+  const row = armorRows.find((r) => r.id === armorId);
+  if (!row || !row.model_path) return;
+  pendingTarget = row;
+  $("remove-target-line").textContent = formatApplyTarget(row);
+  $("dlg-remove").showModal();
 }
 
 function fillSourceModels() {
@@ -423,6 +441,29 @@ $("apply-cancel").addEventListener("click", () => $("dlg-apply").close());
 $("dlg-apply").addEventListener("close", () => {
   clearArchiveImport();
 });
+
+async function doRemove(backup_before_remove) {
+  if (!pendingTarget || !pendingTarget.model_path) return;
+  try {
+    const res = await api("/api/remove-mod", {
+      method: "POST",
+      body: JSON.stringify({
+        target_model: pendingTarget.model_path,
+        backup_before_remove,
+      }),
+    });
+    let msg = t("btnRemove");
+    if (res.backup_path) msg += " " + t("toastBackedUp", res.backup_path);
+    toast(msg);
+    $("dlg-remove").close();
+    await loadAll();
+  } catch (err) {
+    toast(err.message || String(err), true);
+  }
+}
+
+$("btn-remove-backup").addEventListener("click", () => doRemove(true));
+$("btn-remove-nobackup").addEventListener("click", () => doRemove(false));
 
 setLang(getLang());
 initLangUi();
