@@ -22,11 +22,6 @@ jobs:
           - target: x86
             python_arch: x86
             asset_suffix: win-x86
-          - target: arm64
-            python_arch: x64
-            asset_suffix: win-arm64
-            note_only: true
-    continue-on-error: ${{ matrix.note_only == true }}
 
     steps:
       - uses: actions/checkout@v4
@@ -44,7 +39,6 @@ jobs:
           pip install pyinstaller
 
       - name: Build EXE (PyInstaller)
-        if: ${{ matrix.note_only != true }}
         shell: pwsh
         run: |
           $ErrorActionPreference = "Stop"
@@ -91,41 +85,7 @@ jobs:
           }
           Compress-Archive -Path "dist/$exeName" -DestinationPath "dist/$zipName" -Force
 
-      - name: Create arm64 note asset
-        if: ${{ matrix.note_only == true }}
-        shell: pwsh
-        run: |
-          $ErrorActionPreference = "Stop"
-          $rawTag = "${{ github.ref_name }}"
-          $version = $rawTag
-          if ($version.StartsWith("v")) { $version = $version.Substring(1) }
-          New-Item -ItemType Directory -Force -Path dist | Out-Null
-          $note = @(
-            "This repository builds Windows .exe via GitHub-hosted runners.",
-            "",
-            "Targets produced automatically:",
-            "- win-amd64 (x64)",
-            "- win-x86 (32-bit)",
-            "",
-            "About win-arm64:",
-            "GitHub-hosted Windows runners do not provide a Windows ARM64 toolchain/runtime.",
-            "To produce a real ARM64 Windows executable, use a self-hosted Windows-on-ARM64 runner",
-            "and adjust this workflow to run on it, or build locally on an ARM64 Windows machine."
-          ) -join "`n"
-          $txtName = "mhw-pl-manager-$version-${{ matrix.asset_suffix }}.txt"
-          $zipName = "mhw-pl-manager-$version-${{ matrix.asset_suffix }}.zip"
-          Set-Content -Encoding UTF8 -Path "dist/$txtName" -Value $note
-          Compress-Archive -Path "dist/$txtName" -DestinationPath "dist/$zipName" -Force
-
       - name: Upload ZIP to Release
-        if: ${{ matrix.note_only != true }}
-        uses: softprops/action-gh-release@v2
-        with:
-          files: |
-            dist/mhw-pl-manager-*-${{ matrix.asset_suffix }}.zip
-
-      - name: Upload arm64 note ZIP to Release
-        if: ${{ matrix.note_only == true }}
         uses: softprops/action-gh-release@v2
         with:
           files: |
