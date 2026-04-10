@@ -63,7 +63,7 @@ async function refreshGame() {
 }
 
 function flag(name, ok) {
-  return `<span class="flag ${ok ? "ok" : "bad"}">${escapeHtml(name)}: ${
+  return `<span class="flag ${ok ? "ok" : "bad"}">${escapeHtml(layoutFlagLabel(name))}: ${
     ok ? t("flagYes") : t("flagNo")
   }</span>`;
 }
@@ -268,6 +268,7 @@ function initLangUi() {
     setLang(btn.dataset.lang);
     syncLangButtons();
     applyStaticI18n();
+    void refreshGame();
     renderArmor();
     renderMods();
   });

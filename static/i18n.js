@@ -5,7 +5,7 @@
 const UI = {
   en: {
     uiLang: "UI language",
-    pageTitle: "MHW f_equip Mod Manager (female)",
+    pageTitle: "MHW f_equip Mod Manager",
     heading: "MHW f_equip Mod Manager",
     subHtml:
       'Reads <code>nativePC/pl/f_equip</code> subfolders (each is a mod), matches <a href="https://github.com/Ezekial711/MonsterHunterWorldModding/wiki/Armor-IDs" target="_blank" rel="noopener">Armor IDs</a>; copy-rename skins to other equipment IDs.',
@@ -47,6 +47,12 @@ const UI = {
     btnRemove: "Remove",
     flagYes: "yes",
     flagNo: "no",
+    layoutFlag: {
+      nativePC: "nativePC",
+      npc: "npc",
+      pl: "pl",
+      f_equip: "f_equip",
+    },
     gameMissing: "Game path not found. Click “Set manually”.",
     toastSavedPath: "Game path saved.",
     toastWrote: (n) => `Wrote ${n} file(s).`,
@@ -110,6 +116,12 @@ const UI = {
     btnRemove: "移除",
     flagYes: "有",
     flagNo: "无",
+    layoutFlag: {
+      nativePC: "nativePC 文件夹",
+      npc: "npc 文件夹",
+      pl: "pl 文件夹",
+      f_equip: "f_equip 文件夹",
+    },
     gameMissing: "未检测到游戏目录，请点击「手动设置」。",
     toastSavedPath: "已保存游戏路径。",
     toastWrote: (n) => `已写入 ${n} 个文件。`,
@@ -172,6 +184,12 @@ const UI = {
     btnRemove: "移除",
     flagYes: "有",
     flagNo: "無",
+    layoutFlag: {
+      nativePC: "nativePC 資料夾",
+      npc: "npc 資料夾",
+      pl: "pl 資料夾",
+      f_equip: "f_equip 資料夾",
+    },
     gameMissing: "未偵測到遊戲目錄，請點選「手動設定」。",
     toastSavedPath: "已儲存遊戲路徑。",
     toastWrote: (n) => `已寫入 ${n} 個檔案。`,
@@ -234,6 +252,12 @@ const UI = {
     btnRemove: "削除",
     flagYes: "あり",
     flagNo: "なし",
+    layoutFlag: {
+      nativePC: "nativePC フォルダ",
+      npc: "npc フォルダ",
+      pl: "pl フォルダ",
+      f_equip: "f_equip フォルダ",
+    },
     gameMissing: "ゲームパスが見つかりません。「手動で指定」をクリック。",
     toastSavedPath: "パスを保存しました。",
     toastWrote: (n) => `${n} ファイルを書き込みました。`,
@@ -341,6 +365,13 @@ function armorMatchesQuery(row, q) {
 function slotLabel(code) {
   const pack = UI[LANG] || UI["zh-Hans"];
   return pack.slot[code] || code;
+}
+
+function layoutFlagLabel(code) {
+  const pack = UI[LANG] || UI["zh-Hans"];
+  const m = pack.layoutFlag;
+  if (m && m[code] !== undefined) return m[code];
+  return code;
 }
 
 function applyStaticI18n() {
