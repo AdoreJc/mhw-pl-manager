@@ -112,10 +112,20 @@ jobs:
             "To produce a real ARM64 Windows executable, use a self-hosted Windows-on-ARM64 runner",
             "and adjust this workflow to run on it, or build locally on an ARM64 Windows machine."
           ) -join "`n"
-          Set-Content -Encoding UTF8 -Path "dist/mhw-pl-manager-$version-${{ matrix.asset_suffix }}.exe" -Value $note
+          $txtName = "mhw-pl-manager-$version-${{ matrix.asset_suffix }}.txt"
+          $zipName = "mhw-pl-manager-$version-${{ matrix.asset_suffix }}.zip"
+          Set-Content -Encoding UTF8 -Path "dist/$txtName" -Value $note
+          Compress-Archive -Path "dist/$txtName" -DestinationPath "dist/$zipName" -Force
 
       - name: Upload ZIP to Release
         if: ${{ matrix.note_only != true }}
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/mhw-pl-manager-*-${{ matrix.asset_suffix }}.zip
+
+      - name: Upload arm64 note ZIP to Release
+        if: ${{ matrix.note_only == true }}
         uses: softprops/action-gh-release@v2
         with:
           files: |
