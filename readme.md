@@ -39,7 +39,8 @@ Then open the app:
 
 ## Configure game root
 
-You must point the app to your MHW game root (the folder containing `nativePC`):
+The app will try to auto-detect the MHW game root from your Steam library (defaulting to `\Monster Hunter World` under Steam).
+If auto-detection fails, you must point the app to your MHW game root (the folder containing `nativePC`):
 
 - **In the UI**: use the “Manual path” button.
 - **Environment variable**: set `MHW_ROOT` to the game root folder.

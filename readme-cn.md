@@ -38,7 +38,8 @@ python -m mhw_pl_manager
 
 ## 设置游戏根目录
 
-必须先设置 MHW 游戏根目录（也就是包含 `nativePC` 的那个目录）：
+程序会优先尝试从 Steam 库中自动获取 MHW 游戏根目录（通常是 Steam 目录下的 `\Monster Hunter World`）。
+如果自动获取失败，再手动设置 MHW 游戏根目录（也就是包含 `nativePC` 的那个目录）：
 
 - **界面中**：点击“手动设置”选择/输入路径。
 - **环境变量**：设置 `MHW_ROOT` 为游戏根目录路径。
