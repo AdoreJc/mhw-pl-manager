@@ -74,18 +74,19 @@ jobs:
           $version = $rawTag
           if ($version.StartsWith("v")) { $version = $version.Substring(1) }
           New-Item -ItemType Directory -Force -Path dist | Out-Null
-          @"
-This repository builds Windows .exe via GitHub-hosted runners.
-
-Targets produced automatically:
-- win-amd64 (x64)
-- win-x86 (32-bit)
-
-About win-arm32:
-GitHub-hosted Windows runners do not provide a Windows ARM32 toolchain/runtime.
-To produce a real ARM32 Windows executable, use a self-hosted Windows-on-ARM32 runner
-and adjust this workflow to run on it, or build locally on an ARM32 Windows machine.
-"@ | Set-Content -Encoding UTF8 -Path "dist/mhw-pl-manager-$version-${{ matrix.asset_suffix }}.txt"
+          $note = @(
+            "This repository builds Windows .exe via GitHub-hosted runners.",
+            "",
+            "Targets produced automatically:",
+            "- win-amd64 (x64)",
+            "- win-x86 (32-bit)",
+            "",
+            "About win-arm32:",
+            "GitHub-hosted Windows runners do not provide a Windows ARM32 toolchain/runtime.",
+            "To produce a real ARM32 Windows executable, use a self-hosted Windows-on-ARM32 runner",
+            "and adjust this workflow to run on it, or build locally on an ARM32 Windows machine."
+          ) -join "`n"
+          Set-Content -Encoding UTF8 -Path "dist/mhw-pl-manager-$version-${{ matrix.asset_suffix }}.txt" -Value $note
 
       - name: Upload EXE to Release
         if: ${{ matrix.note_only != true }}
