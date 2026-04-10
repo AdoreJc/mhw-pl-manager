@@ -10,6 +10,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
+from mhw_pl_manager import __version__
 from mhw_pl_manager import f_equip as fe
 from mhw_pl_manager.archive_mod_hepsy import (
     apply_mod_hepsy_archive,
@@ -30,7 +31,7 @@ from mhw_pl_manager.paths import (
 ROOT_DIR = Path(__file__).resolve().parent.parent
 STATIC_DIR = ROOT_DIR / "static"
 
-app = FastAPI(title="MHW PL Mod Manager", version="1.0.0")
+app = FastAPI(title="MHW PL Mod Manager", version=__version__)
 
 
 class SetGameRootBody(BaseModel):

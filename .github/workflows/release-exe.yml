@@ -1,0 +1,102 @@
+name: Build Windows EXE on Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-exe:
+    name: build (${{ matrix.target }})
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - target: amd64
+            python_arch: x64
+            asset_suffix: win-amd64
+          - target: x86
+            python_arch: x86
+            asset_suffix: win-x86
+          - target: arm32
+            python_arch: x64
+            asset_suffix: win-arm32
+            note_only: true
+    continue-on-error: ${{ matrix.note_only == true }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          architecture: ${{ matrix.python_arch }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build EXE (PyInstaller)
+        if: ${{ matrix.note_only != true }}
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          $rawTag = "${{ github.ref_name }}"
+          $version = $rawTag
+          if ($version.StartsWith("v")) { $version = $version.Substring(1) }
+          $initPath = "mhw_pl_manager/__init__.py"
+          $initText = Get-Content -Raw -Encoding UTF8 $initPath
+          $initText = $initText -replace '__version__\s*=\s*"[^\"]+"', "__version__ = `"$version`""
+          Set-Content -Encoding UTF8 -NoNewline -Path $initPath -Value $initText
+          pyinstaller `
+            --noconfirm `
+            --clean `
+            --onefile `
+            --name "mhw-pl-manager" `
+            --add-data "static;static" `
+            --add-data "data;data" `
+            "mhw_pl_manager/__main__.py"
+          Move-Item -Force "dist/mhw-pl-manager.exe" "dist/mhw-pl-manager-$version-${{ matrix.asset_suffix }}.exe"
+
+      - name: Create arm32 note asset
+        if: ${{ matrix.note_only == true }}
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          $rawTag = "${{ github.ref_name }}"
+          $version = $rawTag
+          if ($version.StartsWith("v")) { $version = $version.Substring(1) }
+          New-Item -ItemType Directory -Force -Path dist | Out-Null
+          @"
+This repository builds Windows .exe via GitHub-hosted runners.
+
+Targets produced automatically:
+- win-amd64 (x64)
+- win-x86 (32-bit)
+
+About win-arm32:
+GitHub-hosted Windows runners do not provide a Windows ARM32 toolchain/runtime.
+To produce a real ARM32 Windows executable, use a self-hosted Windows-on-ARM32 runner
+and adjust this workflow to run on it, or build locally on an ARM32 Windows machine.
+"@ | Set-Content -Encoding UTF8 -Path "dist/mhw-pl-manager-$version-${{ matrix.asset_suffix }}.txt"
+
+      - name: Upload EXE to Release
+        if: ${{ matrix.note_only != true }}
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/mhw-pl-manager-*-${{ matrix.asset_suffix }}.exe
+
+      - name: Upload arm32 note to Release
+        if: ${{ matrix.note_only == true }}
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/mhw-pl-manager-*-${{ matrix.asset_suffix }}.txt
