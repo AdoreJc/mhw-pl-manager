@@ -7,6 +7,10 @@ A small **FastAPI** web app to help manage Monster Hunter: World (MHW) player eq
 
 It can list installed `f_equip` mods, show coverage per armor model, and **apply (copy + rename)** a mod from one `plXXX_YYYY` model to another. It also supports importing a mod archive (`.zip` / `.7z` / `.rar`) by auto-detecting `plXXX_YYYY` folders inside the archive.
 
+## Screenshots (v0.1.0)
+
+![UI](Screenshot-v0.1.0.png)
+
 ## Features
 
 - **Game path detection**: set the MHW install folder (the folder that contains `nativePC`) via UI or `MHW_ROOT`.
