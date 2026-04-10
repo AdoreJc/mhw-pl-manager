@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import re
-import shutil
 import tempfile
 import uuid
 import zipfile
@@ -218,12 +217,10 @@ def apply_mod_hepsy_archive(
         src_mod = resolve_source_on_disk(root, source_prefix)
 
         backup_path: str | None = None
-        if nonempty and overwrite:
-            if backup_existing:
-                backup_root = f_equip / fe.BACKUP_SUBDIR
-                dest_bak = fe.backup_mod_folder(tgt, backup_root)
-                backup_path = str(dest_bak)
-            shutil.rmtree(tgt)
+        if nonempty and overwrite and backup_existing:
+            backup_root = f_equip / fe.BACKUP_SUBDIR
+            dest_bak = fe.backup_mod_folder(tgt, backup_root)
+            backup_path = str(dest_bak)
 
         created = fe.copy_rename_between_models(src_mod, tgt, source_pl, target_model)
         if not created:
