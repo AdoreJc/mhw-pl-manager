@@ -4,6 +4,7 @@ import time
 import webbrowser
 
 import uvicorn
+from mhw_pl_manager.main import app
 
 _HOST = "127.0.0.1"
 _PORT = 8765
@@ -17,7 +18,7 @@ def _open_browser_after_ready() -> None:
 if __name__ == "__main__":
     threading.Thread(target=_open_browser_after_ready, daemon=True).start()
     uvicorn.run(
-        "mhw_pl_manager.main:app",
+        app,
         host=_HOST,
         port=_PORT,
         reload=False,

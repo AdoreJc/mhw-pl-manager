@@ -63,7 +63,10 @@ jobs:
             --add-data "static;static" `
             --add-data "data;data" `
             "mhw_pl_manager/__main__.py"
-          Move-Item -Force "dist/mhw-pl-manager.exe" "dist/mhw-pl-manager-$version-${{ matrix.asset_suffix }}.exe"
+          $exeName = "mhw-pl-manager-$version-${{ matrix.asset_suffix }}.exe"
+          $zipName = "mhw-pl-manager-$version-${{ matrix.asset_suffix }}.zip"
+          Move-Item -Force "dist/mhw-pl-manager.exe" "dist/$exeName"
+          Compress-Archive -Path "dist/$exeName" -DestinationPath "dist/$zipName" -Force
 
       - name: Create arm32 note asset
         if: ${{ matrix.note_only == true }}
@@ -88,12 +91,12 @@ jobs:
           ) -join "`n"
           Set-Content -Encoding UTF8 -Path "dist/mhw-pl-manager-$version-${{ matrix.asset_suffix }}.txt" -Value $note
 
-      - name: Upload EXE to Release
+      - name: Upload ZIP to Release
         if: ${{ matrix.note_only != true }}
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            dist/mhw-pl-manager-*-${{ matrix.asset_suffix }}.exe
+            dist/mhw-pl-manager-*-${{ matrix.asset_suffix }}.zip
 
       - name: Upload arm32 note to Release
         if: ${{ matrix.note_only == true }}
